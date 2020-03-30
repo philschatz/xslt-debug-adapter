@@ -184,21 +184,21 @@ class DebugTraceListener(
     override fun stepOver() { nextStop = Step.OVER; nextStopStack = stackFrames.size; resume_() }
 
     private fun hookBreakpoints() {
-                debugContext.breakpointManager.also { manager ->
-                        manager.breakpoints.listenAndFire { setAllBreakpoints(it.values.flatten()) }
-                        // manager.exceptionBreakpoints.listenAndFire(::setExceptionBreakpoints)
-                }
+        debugContext.breakpointManager.also { manager ->
+            manager.breakpoints.listenAndFire { setAllBreakpoints(it.values.flatten()) }
+            // manager.exceptionBreakpoints.listenAndFire(::setExceptionBreakpoints)
         }
+    }
 
-        private fun setAllBreakpoints(bps: List<Breakpoint>) {
-                LOG.info("ClearingAllBreakpoints")
-                breakpoints.clear()
-                bps.forEach { bp ->
-                        bp.position.let { setBreakpoint(
-                                it.source.filePath.toAbsolutePath(),
-                                it.lineNumber
-                        ) }
-                }
+    private fun setAllBreakpoints(bps: List<Breakpoint>) {
+        LOG.info("ClearingAllBreakpoints")
+        breakpoints.clear()
+        bps.forEach { bp ->
+            bp.position.let { setBreakpoint(
+                it.source.filePath.toAbsolutePath(),
+                it.lineNumber
+            ) }
+        }
     }
 
     private fun setBreakpoint(filePath: Path, lineNumber: Long) {
