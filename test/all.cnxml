@@ -1,0 +1,2977 @@
+<?xml version="1.0"?>
+<document 
+  xmlns="http://cnx.rice.edu/cnxml" 
+  xmlns:bib='http://bibtexml.sf.net/'
+  xmlns:data='http://www.w3.org/TR/html5/dom.html#custom-data-attribute'
+  xmlns:m='http://www.w3.org/1998/Math/MathML'
+  xmlns:md='http://cnx.rice.edu/mdml/0.4'
+  xmlns:md1='http://cnx.rice.edu/mdml'
+  xmlns:q='http://cnx.rice.edu/qml/1.0'
+  xmlns:cxlxt="http://katalysteducation.org/cxlxt/1.0"
+  xmlns:cmlnle="http://katalysteducation.org/cmlnle/1.0"
+
+  cnxml-version="0.7" id="cite-tests" module-id="m12345">
+  <title>Test Module</title>
+  <content>
+    <para id="cite-example-1">
+      <cite>
+        <cite-title>A Tale of Two Cities</cite-title>
+        by Charles Dickens
+      </cite>
+      is a classic novel.
+    </para>
+    <para id="cite-example-2">This article was taken from
+      <cite window="new" url="http://www.cnn.com">CNN.com
+      </cite>.
+    </para>
+    <para id="cite-example-3">
+      <cite target-id="fs-1234">
+        <note display="inline" class="reference" id="fs-1234">My cool reference</note>
+      </cite>
+    </para>
+    <?chapter-toc label="Learning Objectives"?>
+<?cnx.eoc class="section-summary" title="Section Summary"?>
+<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+
+<!-- m47819 // d7397b20-8abb-40e4-b074-dc58e46b399c -->
+    <example
+      class='foo bar'
+      id='example-test'
+      type='listing'
+    >
+      <label>Listing</label>
+      <title class='boldly'>
+        <emphasis
+          effect='bold'
+          id='Listing_1'
+        ></emphasis>Question 4.
+      </title>
+      <para id="pid6767">...</para>
+    </example>
+<!-- ...without existing classes -->
+    <example
+      id='example-test-2'
+      type='listing'
+    >
+      <label>Listing</label>
+      <title>
+        <emphasis
+          effect='bold'
+          id='Listing_2'
+        ></emphasis>Question 5.
+      </title>
+      <para id="pid234234">...</para>
+    </example>
+<!-- m42219 // 030347e9-f128-486f-a779-019ac474ff90 -->
+    <exercise
+      class='foo bar'
+      id='exercise-test'
+      print-placement='here'
+      type='check-understanding'
+    >
+      <label></label>
+      <title>Check Your Understanding</title>
+<!-- m31849 // fea36ff3-dc5d-43ee-ab74-f40da2a94c1a -->
+      <problem
+        id='problem-test'
+        type='problem-type'
+      >
+        <title>Extra Credit Problem</title>
+        <para
+          id='new1'
+        >
+          One extra credit point will be awarded to you and your partner if you can implement the dual-channel system without using the auxiliary registers
+          <code>AR0</code>
+          ,
+          <code>AR3</code>
+          , and
+          <code>AR5</code>
+          . Why is this more difficult? Renaming the registers using the
+          <code>.asg</code>directive does not count!
+        </para>
+      </problem>
+<!-- m46909 // cb418599-f69b-46c1-b0ef-60d9e36e677f -->
+      <solution
+        class='solutions'
+        id='solution-test'
+        print-placement='here'
+        type='solution-type'
+      >
+        <label></label>
+        <title>Try It Solutions</title>
+        <para
+          id='fs-idp54569968'
+        >
+          The
+          <emphasis>population</emphasis>is all families with children attending Knoll Academy.
+        </para>
+      </solution>
+    </exercise>
+<!-- m48084 -->
+    <note
+      class='interactive'
+      id='fs-idm13022000'
+    >
+      <label></label>
+      <title>Link to Learning</title>
+      <media
+        alt='QR Code representing a URL'
+        id='fs-idm145499088'
+      >
+        <image
+          mime-type='image/png'
+          src='pollinators2.png'
+          width='120'
+        ></image>
+      </media>
+      <para
+        id='fs-idm120942240'
+      >
+        Explore this
+        <link
+          url='http://openstaxcollege.org/l/pollinators2'
+          window='new'
+        >website</link>for additional information on pollinators.
+      </para>
+    </note>
+    <equation
+      class='foo bar'
+      id='element-252'
+    >
+      <m:math>
+        <m:mrow>
+          <m:munder>
+            <m:mi>Σ</m:mi>
+            <m:mi>k</m:mi>
+          </m:munder>
+          <m:mfrac>
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo
+                    stretchy='false'
+                  >(</m:mo>
+                  <m:mi>O</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mi>E</m:mi>
+                  <m:mo
+                    stretchy='false'
+                  >)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:mi>E</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:math>
+    </equation>
+    <definition
+      class='foo bar'
+      id='fs-idm19697904'
+    >
+      <term>Variable</term>
+      <meaning
+        id='fs-idm90760848'
+      >a characteristic of interest for each person or object in a population</meaning>
+    </definition>
+    <!-- figures contain a class based title -->
+    <figure id="fid234523">
+      <title
+        id='id989b1ea2-9f98-2bbd-a51e-32ec96d51b88'
+      >Green Beans</title>
+      <media
+        id="mid234543"
+        alt='green beans'
+        >
+        <image
+            mime-type='image/png'
+          src='/resources/f70c629d7879f221bacd9ce6eec01568402cf741'
+        ></image>
+      </media>
+      <caption>
+          The Caption goes here!
+      </caption>
+    </figure>
+
+
+
+  <code id="idc23423423" display="block">[line 1]
+[line 2]          [after 10 spaces]
+[line 3]</code>
+
+
+  <para id="idm45792189928240">...<code>[some text]          [after 10 spaces]</code>...</para>
+
+
+
+  <para id="id2342345"> <code display="inline">Inline code where it would normally be a block</code>
+  </para>
+  <code lang="JavaScript" display="block" id="id34556">with a language attribute</code>
+
+  <code id="id456" display="block"><title>the title</title>with a title</code>
+
+  <code id="id789" display="block"><label>the label</label><title>the title</title>with a title and label</code>
+
+  <!-- Using 1 line because Travis and OSX use a different version libxml -->
+  <code id="id7890" display="block" lang="JavaScript"><label>the label</label><title>the title</title>with a title and label</code>
+
+  <para id="idm45792189920736">Preformat element (much like a block of code but styled differently)</para>
+
+  <preformat id="idm45889741367328">[line 1]
+[line 2]          [after 10 spaces]
+[line 3]</preformat>
+
+  <!-- Using 1 line because Travis and OSX use a different version libxml -->
+  <preformat id="id4560"><title>the title</title>with a title</preformat>
+
+
+  <list id="idm45792189918144">
+    <item><code>inline code; should not be a blockish pre</code></item>
+  </list>
+
+      <para
+      data:foo='bar'
+      id='titled'
+    >
+      <title
+        data:goo='car'
+      >Sumario en espanol</title>Principales programas de la preparación son diseñados para asegurar que candidatos que completen exitosamente los programas son calificados e informado, y han tenido experiencias de liderazgo que preparan ellos competir para posiciones de liderazgo en las escuelas de hoy (Arrastre y Moorma, 2003). ...
+    </para>
+
+ <section id="cid1" type="intro"><title>Introduction</title><para id="id62175">All the objects that we see in the world around us, are made of <emphasis effect="bold">matter</emphasis>. Matter makes up the air we breathe, the ground we walk on, the food we eat and the animals and plants that live around us. Even our own human bodies are made of matter!</para>
+      <para id="id62185">Different objects can be made of different types of matter, or <emphasis effect="bold">materials</emphasis>. For example, a cupboard (an <emphasis effect="italics">object</emphasis>) is made of wood, nails and hinges (the <emphasis effect="italics">materials</emphasis>). The <emphasis effect="bold">properties</emphasis> of the materials will affect the properties of the object. In the example of the cupboard, the strength of the wood and metals make the cupboard strong and durable. In the same way, the raincoats that you wear during bad weather, are made of a material that is waterproof. The electrical wires in your home are made of metal because metals are a type of material that is able to conduct electricity. It is very important to understand the properties of materials, so that we can use them in our homes, in industry and in other applications. In this chapter, we will be looking at different types of materials and their properties.</para>
+<para id="id0132">Some of the properties of matter that you should know are:
+<list id="lid825"><item><label>Strength</label>Materials can be strong and resist bending (e.g. iron rods, cement) or weak (e.g. fabrics)</item>
+<item><label>Thermal and electrical conductivity</label>Materials that conduct heat (e.g. metals) are called thermal conductors. Materials that conduct electricity are electrical conductors.</item>
+<item><label>Brittle, malleable or ductile</label>Brittle materials break easily. Materials that are malleable can be easily formed into different shapes. Ductile materials are able to be formed into long wires.</item>
+<item><label>Magnetic or non-magnetic</label>Magnetic materials have a magnetic field.</item>
+<item><label>Density</label>Density is the mass per unit volume. An example of a dense material is concrete.</item>
+<item><label>Boiling and melting points</label>The boiling and melting points of substance help us to classify substances as solids, liquids or gases at a specific temperature.</item>
+</list>
+</para>
+      <para id="id62556">The diagram below shows one way in which matter can be classified (grouped) according to its different properties. As you read further in this chapter, you will see that there are also other ways of classifying materials, for example according to whether or not they are good electrical conductors.</para>
+      <figure id="uid1"><media id="uid1_media" alt="">
+          <image mime-type="image/png" src="CG10C1_001.png" id="uid1_onlineimage" width="408"><!-- NOTE: attribute width changes image size online (pixels). original width is 308. --></image>
+          <image mime-type="application/postscript" for="pdf" src="CG10C1_001.eps" id="uid1_printimage"/>
+        </media>
+        
+      <caption>The classification of matter</caption></figure>
+    </section>
+    <para id="eip-344"><title>Discussion: Everyday materials</title>In groups of 3 or 4 look at the labels of medicines, food items, and any other items that you use often. What can you tell about the material inside the container from the list of ingredients? Why is it important to have a list of ingredients on the materials that we use? Do some research on the safety data of the various compounds in the items that you looked at. Are the compounds in the items safe to use? In the food items, what preservatives and additives are there? Are these preservatives and additives good for you? Are there natural alternatives (natural alternatives are usually used by indigenous people groups)? </para><section id="cid2"><title>Mixtures</title><para id="id62584">We see mixtures all the time in our everyday lives. A stew, for example, is a mixture of different foods such as meat and vegetables; sea water is a mixture of water, salt and other substances, and air is a mixture of gases such as carbon dioxide, oxygen and nitrogen.</para>
+<definition id="fhsst_id69"><term id="termfhsst_id69"> Mixture </term> <meaning id="meaningfhsst_id69">
+      A <emphasis effect="bold">mixture</emphasis> is a combination of two or more substances, where these substances are not bonded (or joined) to each other. 
+      </meaning></definition>
+      <para id="id62612">In a mixture, the substances that make up the mixture:</para>
+      <list id="id62615" display="block" list-type="bulleted">
+        <item id="uid2"><emphasis effect="italics">are not in a fixed ratio</emphasis>
+Imagine, for example, that you have a 250 ml beaker of water. It doesn't matter whether you add 20 g, 40 g, 100 g or any other mass of sand to the water; it will still be called a mixture of sand and water.
+</item>
+        <item id="uid3"><emphasis effect="italics">keep their physical properties</emphasis>
+In the example we used of the sand and water, neither of these substances has changed in any way when they are mixed together. Even though the sand is in water, it still has the same properties as when it was out of the water.
+</item>
+        <item id="uid4"><emphasis effect="italics">can be separated by mechanical means</emphasis>
+To separate something by 'mechanical means', means that there is no chemical process involved. In our sand and water example, it is possible to separate the mixture by simply pouring the water through a filter. Something <emphasis effect="italics">physical</emphasis> is done to the mixture, rather than something <emphasis effect="italics">chemical</emphasis>.
+</item>
+      </list>
+      <para id="id62689">Some other examples of mixtures include blood (a mixture of blood cells, platelets and plasma), steel (a mixture of iron and other materials) and the gold that is used to make jewellery. The gold in jewellery is not pure gold but is a mixture of metals. The amount of gold in the jewellery is measured in <emphasis effect="italics">karats</emphasis> (24 karat would be pure gold, while 18 karat is only 75% gold).</para>
+      <para id="id62700">We can group mixtures further by dividing them into those that are heterogeneous and those that are homogeneous.</para>
+      <section id="uid5">
+        <title>Heterogeneous mixtures</title>
+        <para id="id62715">A <emphasis effect="bold">heterogeneous</emphasis> mixture does not have a definite composition. Think of a pizza, that has a topping of cheese, tomato, mushrooms and peppers (the topping is a mixture). Each slice will probably be slightly different from the next because the toppings (the tomato, cheese, mushrooms and peppers) are not evenly distributed. Another example would be granite, a type of rock. Granite is made up of lots of different mineral substances including quartz and feldspar. But these minerals are not spread evenly through the rock and so some parts of the rock may have more quartz than others. Another example is a mixture of oil and water. Although you may add one substance to the other, they will stay separate in the mixture. We say that these heterogeneous mixtures are <emphasis effect="italics">non-uniform</emphasis>, in other words they are not exactly the same throughout.</para>
+<definition id="fhsst_id89"><term id="termfhsst_id89"> Heterogeneous mixture </term> <meaning id="meaningfhsst_id89">
+        A heterogeneous mixture is one that is non-uniform and the different components of the mixture can be seen.
+        </meaning></definition>
+      </section>
+      <section id="uid6">
+        <title>Homogeneous mixtures</title>
+        <para id="id62762">A <emphasis effect="bold">homogeneous</emphasis> mixture has a definite composition, and specific properties. In a homogeneous mixture, the different parts cannot be seen. A solution of salt dissolved in water is an example of a homogeneous mixture. When the salt dissolves, it will spread evenly through the water so that all parts of the solution are the same, and you can no longer see the salt as being separate from the water. Think also of a powdered drink that you mix with water. Provided you give the container a good shake after you have added the powder to the water, the drink will have the same sweet taste for anyone who drinks it, it won't matter whether they take a sip from the top or from the bottom. The air we breathe is another example of a homogeneous mixture since it is made up of different gases which are in a constant ratio, and which can't be visually distinguished from each other (i.e. you can't see the different components).</para>
+<definition id="fhsst_id96"><term id="termfhsst_id96"> Homogeneous mixture </term> <meaning id="meaningfhsst_id96">
+        A homogeneous mixture is one that is uniform, and where the different components of the mixture cannot be seen. 
+        </meaning></definition>
+        <para id="id62795">An <emphasis effect="bold">alloy</emphasis> is a homogeneous mixture of two or more elements, at least one of which is a metal, where the resulting material has metallic properties. Alloys are usually made to improve the properties of the elements that make them up. For example steel is much stronger than iron (which is the main component of steel).</para>
+      </section>
+     
+<exercise id="eip-479"><title>Mixtures</title><problem id="eip-277">
+  <para id="eip-353">For each of the following mixtures state whether it is a homogenous or a heterogenous mixture:
+<list id="eip-id1167649056231" list-type="enumerated" number-style="lower-alpha">
+<item>sugar and water</item>
+<item>flour and iron filings (small pieces of iron)</item>
+<item>flour and baking powder</item>
+<item>smarties, jelly tots and peppermints</item>
+</list>
+  </para>
+</problem>
+
+<solution id="eip-602">
+
+<list id="eip-id7325184" list-type="enumerated" number-style="lower-alpha">
+<item>This is a homogenous mixture since we cannot see the sugar in the water. Also, the two components are mixed uniformly.</item>
+<item>This is a heterogenous mixture since we are able to make out the pieces of iron in the flour. In this mixture there may be places where there are a lot of iron filings and places where there is more flour, so it is not uniformly mixed.</item>
+<item>Homogenous mixture since there is no way to distinguish between the flour and the baking powder. The two components of the mixture are uniformly mixed.</item>
+<item>Heterogenous mixture since we can clearly see each of the components that make up the mixture. The three components of the mixture are not evenly distributed.</item>
+</list>
+</solution>
+</exercise><para id="eip-478"><title>Activity: Classifying materials</title>Look around your classroom or school. Make a list of all the different materials that you see around you. Try to work out why a particular material was used. Can you classify all the different materials used according to their properties? On your way to school or at home or in the shops, look at the different materials that are used. Why are these materials chosen over other materials?</para><para id="eip-894"><title>Activity: Making mixtures</title>Make mixtures of sand and water, potassium dichromate and water, iodine and ethanol, iodine and water. Classify these as heterogeneous or homogeneous. Try to make mixtures using other substances. Are the mixtures that you have made heterogeneous or homogeneous? Give reasons for your choice. </para><section id="secfhsst_id169"><title>Mixtures         </title><list id="id63150" display="block" list-type="enumerated"><item id="uid17">Which of the following substances are <emphasis effect="italics">mixtures</emphasis>?
+<list id="id63170" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid18">tap water
+</item><item id="uid19">brass (an alloy of copper and zinc)
+</item><item id="uid20">concrete
+</item><item id="uid21">aluminium
+</item><item id="uid22">Coca cola
+</item><item id="uid23">distilled water
+</item></list></item>
+          <item id="uid24">In each of the examples above, say whether the mixture is homogeneous or heterogeneous.<newline/>
+
+        <link window="new" class="fullmarks" url="http://www.fhsst.org/llm">Click here for the solution</link>
+     </item></list>  
+
+      </section>
+    </section>
+    <section id="cid3">
+      <title>Pure Substances: Elements and Compounds</title>
+      <para id="id63273">Any material that is not a mixture, is called a <emphasis effect="bold">pure substance</emphasis>. Pure substances include <emphasis effect="bold">elements</emphasis> and <emphasis effect="bold">compounds</emphasis>. It is much more difficult to break down pure substances into their parts, and complex chemical methods are needed to do this.</para>
+      <para id="eip-862">One way to determine if a substance is pure is to look at its melting or boiling point. Pure substances will have a sharply defined melting or boiling point (i.e. the melting or boiling point will be a single temperature rather than a range of temperatures.) Impure substances have a temperature range over which they melt or boil. We can also use chromatography to determine if a substance is pure or not. Chromatography is the process of separating substances into their individual components. If a substance is pure then chromatography will only produce one substance at the end of the process. If a substance is impure then several substances will be seen at the end of the process. </para><para id="eip-122"><title>Activity: Smartie chromatography</title>You will need filter paper (or chromatography paper), some smarties in different colours, water and an eye dropper. <newline/>
+Place a smartie in the center of a piece of filter paper. Carefully drop a few drops of water onto the smartie. You should see rings of different colour forming around the smartie. Each colour is one of the individual colours that are used to make up the colour of the smartie.</para><note id="eip-392">For the above activity you can use ordinary filter paper (that is used in coffee filters) from your local store.</note><section id="uid25">
+        <title>Elements</title>
+        <para id="id63302">An <emphasis effect="bold">element</emphasis> is a chemical substance that can't be divided or changed into other chemical substances by any ordinary chemical means. The smallest unit of an element is the <emphasis effect="bold">atom</emphasis>.</para>
+<definition id="fhsst_id193"><term id="termfhsst_id193"> Element </term> <meaning id="meaningfhsst_id193">
+        An element is a substance that cannot be broken down into other substances through chemical means.
+        </meaning></definition>
+        <para id="id63334">There are 112 officially named elements and about 118 known elements. Most of these are natural, but some are man-made. The elements we know are represented in the <emphasis effect="bold">Periodic Table of the Elements</emphasis>, where each element is abbreviated to a <emphasis effect="bold">chemical symbol</emphasis>. Examples of elements are magnesium (<m:math><m:mi mathvariant="normal">Mg</m:mi></m:math>), hydrogen (<m:math><m:mi mathvariant="normal">H</m:mi></m:math>), oxygen (<m:math><m:mi mathvariant="normal">O</m:mi></m:math>) and carbon (<m:math><m:mi mathvariant="normal">C</m:mi></m:math>). On the Periodic Table you will notice that some of the abbreviations do not seem to match the elements they represent. The element iron, for example, has the chemical formula <m:math><m:mi mathvariant="normal">Fe</m:mi></m:math>. This is because the elements were originally given Latin names. Iron has the abbreviation <m:math><m:mi mathvariant="normal">Fe</m:mi></m:math> because its Latin name is 'ferrum'. In the same way, sodium's Latin name is 'natrium' (<m:math><m:mi mathvariant="normal">Na</m:mi></m:math>) and gold's is 'aurum' (<m:math><m:mi mathvariant="normal">Au</m:mi></m:math>).</para><note id="eip-775"><title>Interesting fact</title>Recently it was agreed that two more elements would be added to the list of officially named elements. These are elements number 114 and 116. The proposed name for element 114 is flerovium and for element 116 it is moscovium. This brings the total number of officially named elements to 114.</note>
+      </section>
+      <section id="uid26">
+        <title>Compounds</title>
+        <para id="id63363">A <emphasis effect="bold">compound</emphasis> is a chemical substance that forms when two or more elements combine in a fixed ratio. Water (<m:math overflow="scroll"><m:mi mathvariant="normal">H</m:mi><m:msub><m:mrow/><m:mn>2</m:mn></m:msub><m:mi mathvariant="normal">O</m:mi></m:math>), for example, is a compound that is made up of two hydrogen atoms for every one oxygen atom. Sodium chloride (<m:math><m:mi>NaCl</m:mi></m:math>) is a compound made up of one sodium atom for every chlorine atom. An important characteristic of a compound is that it has a <emphasis effect="bold">chemical formula</emphasis>, which describes the ratio in which the atoms of each element in the compound occur.</para>
+<definition id="fhsst_id201"><term id="termfhsst_id201"> Compound </term> <meaning id="meaningfhsst_id201">
+        A substance made up of two or more elements that are joined together in a fixed ratio.
+        </meaning></definition>
+        <para id="id63410"><link target-id="uid27"/> might help you to understand the difference between the terms <emphasis effect="italics">element</emphasis>, <emphasis effect="italics">mixture</emphasis> and <emphasis effect="italics">compound</emphasis>. Iron (Fe) and sulphur (S) are two elements. When they are added together, they form a <emphasis effect="italics">mixture</emphasis> of iron and sulphur. The iron and sulphur are not joined together. However, if the mixture is heated, a new <emphasis effect="italics">compound</emphasis> is formed, which is called iron sulphide (FeS). In this compound, the iron and sulphur are joined to each other in a ratio of 1:1. In other words, one atom of iron is joined to one atom of sulphur in the compound iron sulphide.</para>
+        <figure id="uid27"><media id="uid27_media" alt="">
+            <image mime-type="image/png" src="CG10C1_003.png" id="uid27_onlineimage" width="413"><!-- NOTE: attribute width changes image size online (pixels). original width is 313. --></image>
+            <image mime-type="application/postscript" for="pdf" src="CG10C1_003.eps" id="uid27_printimage"/>
+          </media>
+          
+        <caption>Understanding the difference between a mixture and a compound</caption></figure>
+<para id="eip-487"><link target-id="uid27"/> shows the microscopic representation of mixtures and compounds. In a microscopic representation we use circles to represent different elements. To show a compound, we draw several circles joined together. Mixtures are simply shown as two or more individual elements in the same box. The circles are not joined for a mixture.</para>
+<para id="id0124">We can also use symbols to represent elements, mixtures and compounds. The symbols for the elements are all found on the periodic table. Compounds are shown as two or more element names written right next to each other. Subscripts may be used to show that there is more than one atom of a particular element. (e.g. <m:math overflow="scroll"><m:mi mathvariant="normal">H</m:mi><m:msub><m:mrow/><m:mn>2</m:mn></m:msub><m:mi mathvariant="normal">O</m:mi></m:math> or <m:math><m:mi mathvariant="normal">NaCl</m:mi></m:math>). Mixtures are written as: a mixture of element (or compound) A and element (or compound) B. (e.g. a mixture of <m:math><m:mi mathvariant="normal">Fe</m:mi></m:math> and <m:math><m:mi mathvariant="normal">S</m:mi></m:math>).</para>
+<para id="eip-595">One way to think of mixtures and compounds is to think of buildings. The building is a mixture of different building materials (e.g. glass, bricks, cement, etc.). The building materials are all compounds. You can also think of the elements as Lego blocks. Each Lego block can be added to other Lego blocks to make new structures, in the same way that elements can combine to make compounds. </para><exercise id="eip-524"><title>Mixtures and pure substances</title><problem id="eip-259">
+  <para id="eip-457">
+For each of the following substances state whether it is a pure substance or a mixture. If it is a mixture, is it homogenous or heterogenous? If it is a pure substance is it an element or a compound? 
+<list id="eip-id1167351497334" list-type="enumerated" number-style="lower-alpha">
+<item>Blood</item>
+<item>Argon</item>
+<item>Silicon dioxide (<m:math><m:msub><m:mi>SiO</m:mi><m:mn>2</m:mn></m:msub></m:math>)</item>
+<item>Sand and stones</item>
+</list>
+  </para>
+</problem>
+
+<solution id="eip-62">
+<list id="eip-id1167366034146" list-type="enumerated" number-style="lower-alpha">
+<item>Blood is a mixture since it is made up of many different compounds and substances. Blood is a homogenous mixture since you cannot see the individual components and the components are uniformly distributed.</item>
+<item>Argon is a pure substance. Argon is an element since we can find it on the periodic table.</item>
+<item>Silicon dioxide is a pure substance. It is a compound since it is made of the elements silicon and oxygen joined in a fixed ratio.</item>
+<item>Sand and stones form a mixture. There are two distinct compounds. It is a heterogenous mixture since the particles are not uniformly distributed and we can see the individual pieces.</item>
+</list>
+</solution>
+</exercise><para id="eip-326"><title>Activity: Using models to represent substances</title>Use coloured balls and sticks to represent elements and compounds. Some examples that you can try to build are:
+<list id="eip-id1166921187210"><item>Hydrogen</item>
+<item>Oxygen</item>
+<item>Nitrogen</item>
+<item>Neon</item>
+<item>Sodium chloride (salt, <m:math><m:mi>NaCl</m:mi></m:math>)</item>
+<item>Potassium permanganate (<m:math><m:msub><m:mi mathvariant="normal">KMnO</m:mi><m:mn>4</m:mn></m:msub></m:math>)</item>
+<item>Water (<m:math><m:msub><m:mi mathvariant="normal">H</m:mi><m:mn>2</m:mn></m:msub><m:mi mathvariant="normal">O</m:mi></m:math>)</item>
+<item>Iron sulphide (<m:math><m:mi>FeS</m:mi></m:math>)</item>
+</list>
+Think about the way that we represent substances microscopically. Would you use just one ball to represent an element or many? Why? </para><section id="secfhsst_id212"><title>Elements, mixtures and compounds         </title><list id="id63472" display="block" list-type="enumerated">
+          <item id="uid28">In the following table, tick whether each of the substances listed is a <emphasis effect="italics">mixture</emphasis> or a <emphasis effect="italics">pure substance</emphasis>. If it is a mixture, also say whether it is a homogeneous or heterogeneous mixture.
+
+<table id="id63499" summary="table to be filled in on mixtures">
+<tgroup cols="3"><tbody><row><entry><emphasis effect="bold">Substance</emphasis></entry><entry><emphasis effect="bold">Mixture or pure</emphasis></entry><entry><emphasis effect="bold">Homogeneous or heterogeneous mixture</emphasis></entry></row><row><entry>fizzy colddrink</entry><entry/><entry/></row><row><entry>steel</entry><entry/><entry/></row><row><entry>oxygen</entry><entry/><entry/></row><row><entry>iron filings</entry><entry/><entry/></row><row><entry>smoke</entry><entry/><entry/></row><row><entry>limestone (<m:math><m:msub><m:mi mathvariant="normal">CaCO</m:mi><m:mn>3</m:mn></m:msub></m:math>)</entry><entry/><entry/></row></tbody>
+</tgroup>
+</table>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lly">Click here for the solution</link>
+</item>
+
+          <item id="uid29">In each of the following cases, say whether the substance is an element, a mixture or a compound.
+<list id="id63912" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid30"><m:math><m:mi mathvariant="normal">Cu</m:mi></m:math>
+</item><item id="uid31">iron and sulphur
+</item><item id="uid32"><m:math><m:mi mathvariant="normal">Al</m:mi></m:math>
+</item><item id="uid33"><m:math overflow="scroll"><m:mi mathvariant="normal">H</m:mi><m:msub><m:mrow/><m:mn>2</m:mn></m:msub><m:mi mathvariant="normal">SO</m:mi><m:msub><m:mrow/><m:mn>4</m:mn></m:msub></m:math></item><item id="uid34"><m:math><m:mi mathvariant="normal">SO</m:mi><m:msub><m:mrow/><m:mn>3</m:mn></m:msub></m:math></item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/llV">Click here for the solution</link></item>
+        </list>
+
+</section>
+      </section>
+    </section>
+    <section id="cid4">
+      <title>Giving names and formulae to substances</title>
+      <para id="eip-379">Think about what you call your friends. Their full name is like the substances name and their nickname is like the substances formulae. Without these names your friends would have no idea which of them you are referring to. In the same way scientists like to have a consistent way of naming things and a short way of describing the thing being named. This helps scientists to communicate efficiently.     </para><para id="id64028">It is easy to describe elements and mixtures. We simply use the names that we find on the periodic table for elements and we use words to describe mixtures. But how are compounds named? In the example of iron sulphide that was used earlier, which element is named first, and which 'ending' is given to the compound name (in this case, the ending is -ide)? </para>
+      <para id="id64033">The following are some guidelines for naming compounds:</para>
+      <list id="id64037" display="block" list-type="enumerated"><item id="uid35">The compound name will always include the <emphasis effect="bold">names of the elements</emphasis> that are part of it.
+<list id="id64059" display="block" list-type="bulleted"><item id="uid36">A compound of <emphasis effect="bold">iron</emphasis> (<m:math><m:mi mathvariant="normal">Fe</m:mi></m:math>) and <emphasis effect="italics">sulphur</emphasis> (<m:math><m:mi mathvariant="normal">S</m:mi></m:math>) is <emphasis effect="bold">iron</emphasis><space/><emphasis effect="italics">sulph</emphasis>ide (<m:math><m:mi mathvariant="normal">FeS</m:mi></m:math>)
+</item><item id="uid37">A compound of <emphasis effect="bold">potassium</emphasis> (<m:math><m:mi mathvariant="normal">K</m:mi></m:math>) and <emphasis effect="italics">bromine</emphasis> (<m:math><m:mi mathvariant="normal">Br</m:mi></m:math>) is <emphasis effect="bold">potassium</emphasis><space/><emphasis effect="italics">brom</emphasis>ide (<m:math><m:mi mathvariant="normal">KBr</m:mi></m:math>)
+</item><item id="uid38">A compound of <emphasis effect="bold">sodium</emphasis> (<m:math><m:mi mathvariant="normal">Na</m:mi></m:math>) and <emphasis effect="italics">chlorine</emphasis> (<m:math><m:mi mathvariant="normal">Cl</m:mi></m:math>) is <emphasis effect="bold">sodium</emphasis><space/><emphasis effect="italics">chlor</emphasis>ide (<m:math><m:mi mathvariant="normal">NaCl</m:mi></m:math>)
+</item></list></item>
+        <item id="uid39">In a compound, the element that is on the left of the Periodic Table, is used <emphasis effect="italics">first</emphasis> when naming the compound. In the example of <m:math><m:mi mathvariant="normal">NaCl</m:mi></m:math>, sodium is a group 1 element on the left hand side of the table, while chlorine is in group 7 on the right of the table. Sodium therefore comes first in the compound name. The same is true for <m:math><m:mi mathvariant="normal">FeS</m:mi></m:math> and <m:math><m:mi mathvariant="normal">KBr</m:mi></m:math>.
+</item>
+        <item id="uid40">The <emphasis effect="bold">symbols</emphasis> of the elements can be used to represent compounds e.g. <m:math><m:mi mathvariant="normal">FeS</m:mi></m:math>, <m:math><m:mi mathvariant="normal">NaCl</m:mi></m:math>, <m:math><m:mi mathvariant="normal">KBr</m:mi></m:math> and <m:math overflow="scroll"><m:mi mathvariant="normal">H</m:mi><m:msub><m:mrow/><m:mn>2</m:mn></m:msub><m:mi mathvariant="normal">O</m:mi></m:math>. These are called <emphasis effect="bold">chemical formulae</emphasis>. In the first three examples, the ratio of the elements in each compound is 1:1. So, for <m:math><m:mi mathvariant="normal">FeS</m:mi></m:math>, there is one atom of iron for every atom of sulphur in the compound. In the last example (<m:math overflow="scroll"><m:mi mathvariant="normal">H</m:mi><m:msub><m:mrow/><m:mn>2</m:mn></m:msub><m:mi mathvariant="normal">O</m:mi></m:math>) there are two atoms of hydrogen for every atom of oxygen in the compound.
+</item>
+        <item id="uid41">A compound may contain <emphasis effect="bold">compound ions</emphasis>. An ion is an atom that has lost (positive ion) or gained (negative ion) electrons. Some of the more common compound ions and their formulae are given below.
+<table id="id64235" summary="Compound ions and their formulae">
+<tgroup cols="2"><tbody><row><entry>Name of compound ion</entry><entry>Formula</entry></row><row><entry>Carbonate</entry><entry><m:math overflow="scroll"><m:msubsup><m:mi mathvariant="normal">CO</m:mi><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo></m:mrow></m:msubsup></m:math> </entry></row>
+<row><entry>Sulphate</entry><entry> <m:math overflow="scroll"><m:mi mathvariant="normal">SO</m:mi><m:msubsup><m:mrow/><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo></m:mrow></m:msubsup></m:math></entry></row>
+<row><entry>Hydroxide</entry><entry><m:math overflow="scroll"><m:msup><m:mi mathvariant="normal">OH</m:mi><m:mo>-</m:mo></m:msup></m:math></entry></row>
+<row><entry>Ammonium</entry><entry><m:math overflow="scroll"><m:msubsup><m:mi mathvariant="normal">NH</m:mi><m:mrow><m:mn>4</m:mn></m:mrow><m:mo>+</m:mo></m:msubsup></m:math></entry></row><row><entry>Nitrate</entry><entry><m:math overflow="scroll"><m:msubsup><m:mi mathvariant="normal">NO</m:mi><m:mrow><m:mn>3</m:mn></m:mrow><m:mo>-</m:mo></m:msubsup></m:math></entry></row>
+<row><entry>Hydrogen carbonate</entry><entry><m:math overflow="scroll"><m:msubsup><m:mi mathvariant="normal">HCO</m:mi><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mo>-</m:mo></m:mrow></m:msubsup></m:math></entry></row>
+<row><entry>Phosphate</entry><entry><m:math overflow="scroll"><m:mi mathvariant="normal">PO</m:mi><m:msubsup><m:mrow/><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>-</m:mo></m:mrow></m:msubsup></m:math></entry></row>
+<row><entry>Chlorate</entry><entry><m:math overflow="scroll"><m:msubsup><m:mi mathvariant="normal">ClO</m:mi><m:mrow><m:mn>3</m:mn></m:mrow><m:mo>-</m:mo></m:msubsup></m:math></entry></row>
+<row><entry>Cyanide</entry><entry><m:math overflow="scroll"><m:msup><m:mi mathvariant="normal">CN</m:mi><m:mo>-</m:mo></m:msup></m:math></entry></row>
+<row><entry>Chromate</entry><entry><m:math overflow="scroll"><m:msubsup><m:mi mathvariant="normal">CrO</m:mi><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo></m:mrow></m:msubsup></m:math></entry></row>
+<row><entry>Permanganate</entry><entry><m:math overflow="scroll"><m:mi mathvariant="normal">MnO</m:mi><m:msubsup><m:mrow/><m:mrow><m:mn>4</m:mn></m:mrow><m:mo>-</m:mo></m:msubsup></m:math></entry></row></tbody>
+
+</tgroup>
+</table></item>
+        <item id="uid42">When there are only two elements in the compound, the compound is often given a <emphasis effect="bold">suffix</emphasis> (ending) of -ide. You would have seen this in some of the examples we have used so far. For compound ions, when a non-metal is combined with oxygen to form a negative ion (anion) which then combines with a positive ion (cation) from hydrogen or a metal, then the suffix of the name will be ...ate or ...ite. <m:math><m:msubsup><m:mi>NO</m:mi><m:mn>3</m:mn><m:mo>-</m:mo></m:msubsup></m:math> for example, is a negative ion, which may combine with a cation such as hydrogen (<m:math overflow="scroll"><m:mi mathvariant="normal">HNO</m:mi><m:msub><m:mrow/><m:mn>3</m:mn></m:msub></m:math>) or a metal like potassium (KNO<sub>3</sub>). The <m:math><m:msubsup><m:mi>NO</m:mi><m:mn>3</m:mn><m:mo>-</m:mo></m:msubsup></m:math> anion has the name nitr<emphasis effect="bold">ate</emphasis>. <m:math><m:msubsup><m:mi>SO</m:mi><m:mn>3</m:mn><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo></m:mrow></m:msubsup></m:math> in a formula is sulph<emphasis effect="bold">ite</emphasis>, e.g. sodium sulphite (<m:math><m:mi mathvariant="normal">Na</m:mi><m:msub><m:mrow/><m:mn>2</m:mn></m:msub><m:mi mathvariant="normal">SO</m:mi><m:msub><m:mrow/><m:mn>3</m:mn></m:msub></m:math>).<newline/> <m:math overflow="scroll"><m:mi mathvariant="normal">SO</m:mi><m:msubsup><m:mrow/><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo></m:mrow></m:msubsup></m:math> is sulph<emphasis effect="bold">ate</emphasis> and <m:math overflow="scroll"><m:mi mathvariant="normal">PO</m:mi><m:msubsup><m:mrow/><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>-</m:mo></m:mrow></m:msubsup></m:math> is phosph<emphasis effect="bold">ate</emphasis>.
+</item>
+        <item id="uid43"><emphasis effect="bold">Prefixes</emphasis> can be used to describe the ratio of the elements that are in the compound. You should know the following prefixes: 'mono' (one), 'di' (two) and 'tri' (three).
+<list id="id64977" display="block" list-type="bulleted"><item id="uid44"><m:math><m:mi>CO</m:mi></m:math> (carbon monoxide) - There is one atom of oxygen for every one atom of carbon
+</item><item id="uid45"><m:math><m:mi mathvariant="normal">NO</m:mi><m:msub><m:mrow/><m:mn>2</m:mn></m:msub></m:math> (nitrogen dioxide) - There are two atoms of oxygen for every one atom of nitrogen
+</item><item id="uid46"><m:math><m:mi mathvariant="normal">SO</m:mi><m:msub><m:mrow/><m:mn>3</m:mn></m:msub></m:math> (sulphur trioxide) - There are three atoms of oxygen for every one atom of sulphur
+</item></list></item>
+      </list>
+<para id="id537402">The above guidelines also help us to work out the formula of a compound from the name of the compound.</para>
+<para id="eip-178">When working out the formula of a compound from the name we work backwards. For example, if you are given potassium chloride and were told to give its formula you would start by noting that we having potassium and chloride. Next you write down the formula for each of these ions. Potassium is <m:math><m:msup><m:mi mathvariant="normal">K</m:mi><m:mo>+</m:mo></m:msup></m:math> and chloride is <m:math><m:msup><m:mi mathvariant="normal">Cl</m:mi><m:mo>-</m:mo></m:msup></m:math>. The final step is to note the charge on each ion to see how it combines. Since both potassium and chlorine have a charge of 1, they combine in a 1:1 ratio. The formula is <m:math><m:mi>KCl</m:mi></m:math>.</para><note id="notfhsst_id252" type="tip">
+      <para id="id65053">When numbers are written as 'subscripts' in compounds (i.e. they are written below and to the right of the element symbol), this tells us how many atoms of that element there are in relation to other elements in the compound. For example in nitrogen dioxide (<m:math><m:msub><m:mi>NO</m:mi><m:mn>2</m:mn></m:msub></m:math>) there are two oxygen atoms for every one atom of nitrogen. In sulphur trioxide (<m:math><m:msub><m:mi>SO</m:mi><m:mn>3</m:mn></m:msub></m:math>), there are three oxygen atoms for every one atom of sulphur in the compound. Later, when we start looking at chemical equations, you will notice that sometimes there are numbers <emphasis effect="italics">before</emphasis> the compound name. For example, <m:math overflow="scroll"><m:mn>2</m:mn><m:mi mathvariant="normal">H</m:mi><m:msub><m:mrow/><m:mn>2</m:mn></m:msub><m:mi mathvariant="normal">O</m:mi></m:math> means that there are two molecules of water, and that in each molecule there are two hydrogen atoms for every one oxygen atom. </para> 
+</note>
+<para id="eip-163">We can use these rules to help us name both ionic compounds and covalent compounds (more on these compounds will be covered in a later chapter). However, covalent compounds are often given other names by scientists to simplify the name (or because the molecule was named long before its formula was discovered). For example, if we have 2 hydrogen atoms and one oxygen atom the above naming rules would tell us that the substance is dihydrogen monoxide. But this compound is better known as water! Or if we had 1 carbon atom and 4 hydrogen atoms then the name would be carbon tetrahydride, but scientists call this compound methane.  </para><exercise id="eip-254"><title>Naming compounds</title><problem id="eip-671">
+  <para id="eip-870">
+    What is the chemical name for <list id="id734" list-type="enumerated" number-style="lower-alpha"><item> 
+ <m:math><m:mi mathvariant="normal">K</m:mi><m:msub><m:mi>MnO</m:mi><m:mn>4</m:mn></m:msub></m:math></item>
+<item><m:math><m:msub><m:mi>NH</m:mi><m:mn>4</m:mn></m:msub><m:mi>Cl</m:mi></m:math></item></list>
+  </para>
+</problem>
+
+<solution id="eip-824">
+<list id="id7432" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Write down the names of each element or ion in the compound</label>For a) we have potassium and the permanganate ion. For b) we have the ammonium ion and chlorine. 
+</item>
+<item><label>Use the naming rules to write the names</label>For a) we list the potassium first and the permanganate ion second. So a) is potassium permanganate. For b) we list the ammonium ion first and change the ending of chlorine to -ide. So b) is ammonium chloride.
+</item>
+</list>
+</solution>
+</exercise><exercise id="eip-530"><problem id="eip-196">
+  <para id="eip-535">Write the chemical formulae for: 
+<list id="id87432" list-type="enumerated" number-style="lower-alpha">
+<item>sodium sulphate</item>
+<item>potassium chromate</item>
+</list>
+  </para>
+</problem>
+
+<solution id="eip-345">
+<list id="id874452" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Write the symbol for each element or compound</label>In part a) we have <m:math><m:msup><m:mi>Na</m:mi><m:mo>+</m:mo></m:msup></m:math> (sodium) and <m:math><m:msubsup><m:mi>SO</m:mi><m:mn>4</m:mn><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo></m:mrow></m:msubsup></m:math> (sulphate). In part b) we have <m:math><m:msup><m:mi mathvariant="normal">K</m:mi><m:mo>+</m:mo></m:msup></m:math> (potassium) and <m:math><m:msubsup><m:mi mathvariant="normal">CrO</m:mi><m:mn>4</m:mn><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo></m:mrow></m:msubsup></m:math> (chromate)</item>
+<item><label>Look at the charge on the ions</label>In part a) the charge on sodium is <m:math><m:mo>+</m:mo><m:mn>1</m:mn></m:math> and the charge on sulphate is <m:math><m:mo>-</m:mo><m:mn>2</m:mn></m:math>, so we must have two sodiums for every sulphate. In part b) the charge on potassium is <m:math><m:mo>+</m:mo><m:mn>1</m:mn></m:math> and the charge on chromate is <m:math><m:mo>-</m:mo><m:mn>2</m:mn></m:math>, so we must have two potassiums for every chromate.</item>
+<item><label>Write the final answer</label>a) is <m:math><m:msub><m:mi>Na</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>SO</m:mi><m:mn>4</m:mn></m:msub></m:math> and b) is <m:math><m:msub><m:mi mathvariant="normal">K</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi mathvariant="normal">CrO</m:mi><m:mn>4</m:mn></m:msub></m:math></item>
+</list>
+</solution>
+</exercise><section id="secfhsst_id255"><title> Naming compounds
+      </title>
+      <list id="id65118" display="block" list-type="enumerated"><item id="uid47">The formula for calcium carbonate is <m:math overflow="scroll"><m:mi mathvariant="normal">CaCO</m:mi><m:msub><m:mrow/><m:mn>3</m:mn></m:msub></m:math>.
+<list id="id65148" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid48">Is calcium carbonate a mixture or a compound? Give a reason for your answer.
+</item><item id="uid49">What is the ratio of <m:math><m:mi>Ca</m:mi><m:mo>:</m:mo><m:mi mathvariant="normal">C</m:mi><m:mo>:</m:mo><m:mi mathvariant="normal">O</m:mi></m:math> atoms in the formula?
+</item></list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/llp">Click here for the solution</link>
+</item>
+
+        <item id="uid50">Give the name of each of the following substances.
+<list id="id65189" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid51"><m:math><m:mi>KBr</m:mi></m:math>
+</item><item id="uid52"><m:math><m:mi>HCl</m:mi></m:math>
+</item><item id="uid53"><m:math><m:msub><m:mi>KMnO</m:mi><m:mn>4</m:mn></m:msub></m:math></item><item id="uid54"><m:math><m:msub><m:mi>NO</m:mi><m:mn>2</m:mn></m:msub></m:math></item><item id="uid55"><m:math><m:msub><m:mi>NH</m:mi><m:mn>4</m:mn></m:msub><m:mi>OH</m:mi></m:math>
+</item><item id="uid56"><m:math><m:msub><m:mi>Na</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>SO</m:mi><m:mn>4</m:mn></m:msub></m:math></item></list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lld">Click here for the solution</link>
+</item>
+
+        <item id="uid57">Give the chemical formula for each of the following compounds.
+<list id="id65338" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid58">potassium nitrate
+</item><item id="uid59">sodium iodide
+</item><item id="uid60">barium sulphate
+</item><item id="uid61">nitrogen dioxide
+</item><item id="uid62">sodium monosulphate
+</item></list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/llv">Click here for the solution</link>
+</item>
+
+        <item id="uid63">Refer to the diagram below, showing sodium chloride and water, and then answer the questions that follow.
+<figure id="id65419"><media id="id65419_media" alt=""><image mime-type="image/png" src="CG10C2_004.png" id="id65419_onlineimage" width="188"><!-- NOTE: attribute width changes image size online (pixels). original width is 88. --></image><image mime-type="application/postscript" for="pdf" src="CG10C1_004.eps" id="id65419_printimage"/></media></figure><list id="id65426" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid64">What is the chemical formula for water?
+</item><item id="uid65">What is the chemical formula for sodium chloride?
+</item><item id="uid66">Label the water and sodium chloride in the diagram.
+</item><item id="uid67">Give a description of the picture. Focus on whether there are elements or compounds and if it is a mixture or not.
+</item></list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/llL">Click here for the solution</link>
+</item>
+ 
+      </list>
+      
+</section>
+    </section>
+    <section id="cid5">
+      <title>Metals, Metalloids and Non-metals</title>
+      <para id="id65693">The elements in the Periodic Table can also be divided according to whether they are <emphasis effect="bold">metals</emphasis>, <emphasis effect="bold">metalloids</emphasis> or <emphasis effect="bold">non-metals</emphasis>. On the right hand side of the Periodic Table you can draw a 'zigzag' line (This line starts with Boron (<m:math><m:mi mathvariant="normal">B</m:mi></m:math>) and goes down to Polonium (<m:math><m:mi>Po</m:mi></m:math>). This line separates all the elements that are metals from those that are non-metals. Metals are found on the left of the line, and non-metals are those on the right. Along the line you find the metalloids. You should notice that there are more metals then non-metals. Metals, metalloids and non-metals all have their own specific properties.</para>
+      <section id="uid76">
+        <title>Metals</title>
+        <para id="id65726">Examples of metals include copper (<m:math><m:mi>Cu</m:mi></m:math>), zinc (<m:math><m:mi>Zn</m:mi></m:math>), gold (<m:math><m:mi>Au</m:mi></m:math>), silver (<m:math><m:mi>Ag</m:mi></m:math>), tin (<m:math><m:mi>Sn</m:mi></m:math>) and lead(<m:math><m:mi>Pb</m:mi></m:math>). On the Periodic Table, the metals are on the left of the zig-zag line. There are a large number of elements that are metals. The following are some of the properties of metals:</para>
+        <list id="id65732" display="block" list-type="bulleted"><item id="uid77"><emphasis effect="italics">Thermal conductors</emphasis>
+Metals are good conductors of heat. This makes them useful in cooking utensils such as pots and pans.
+</item>
+          <item id="uid78"><emphasis effect="italics">Electrical conductors</emphasis>
+Metals are good conductors of electricity. Metals can be used in electrical conducting wires.
+</item>
+          <item id="uid79"><emphasis effect="italics">Shiny metallic lustre</emphasis>
+Metals have a characteristic shiny appearance and so are often used to make jewellery.
+</item>
+          <item id="uid80"><emphasis effect="italics">Malleable</emphasis>
+This means that they can be bent into shape without breaking.
+</item>
+          <item id="uid81"><emphasis effect="italics">Ductile</emphasis>
+Metals (such as copper) can be stretched into thin wires, which can then be used to conduct electricity, as well as for other uses.
+</item>
+          <item id="uid82"><emphasis effect="italics">Melting point</emphasis>
+Metals usually have a high melting point and can therefore be used to make cooking pots and other equipment that needs to become very hot, without being damaged.
+</item>
+        </list>
+        <para id="id65852">You can see how the properties of metals make them very useful in certain applications.</para>
+<section id="secfhsst_id320"><title> Group Work : Looking at metals
+        </title>
+        <list id="id65869" display="block" list-type="enumerated">
+          <item id="uid83">Collect a number of metal items from your home or school. Some examples are listed below:
+<list id="id65885" display="block" list-type="bulleted"><item id="uid84">hammer
+</item><item id="uid85">wire
+</item><item id="uid86">cooking pots
+</item><item id="uid87">jewellery
+</item><item id="uid88">nails
+</item><item id="uid89">coins
+</item></list></item>
+          <item id="uid90">In groups of 3-4, combine your collection of metal objects.
+</item>
+          <item id="uid91">What is the function of each of these objects?
+</item>
+          <item id="uid92">Discuss why you think metal was used to make each object. You should consider the properties of metals when you answer this question.
+</item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid93">
+        <title>Non-metals</title>
+        <para id="id66021">In contrast to metals, non-metals are poor thermal conductors, good electrical insulators (meaning that they do <emphasis effect="italics">not</emphasis> conduct electrical charge) and are neither malleable nor ductile. The non-metals are found on the right hand side of the Periodic Table, and include elements such as sulphur (<m:math><m:mi mathvariant="normal">S</m:mi></m:math>), phosphorus (<m:math><m:mi mathvariant="normal">P</m:mi></m:math>), nitrogen (<m:math><m:mi mathvariant="normal">N</m:mi></m:math>) and oxygen (<m:math><m:mi mathvariant="normal">O</m:mi></m:math>).</para>
+      </section>
+      <section id="uid94">
+        <title>Metalloids</title>
+        <para id="id66042">Metalloids or semi-metals have mostly non-metallic properties. One of their distinguishing characteristics is that their conductivity increases as their temperature increases. This is the opposite of what happens in metals. This property is known as semi-conductance and the materials are called semi-conductors. Semi-conductors are important in digital electronics, such as computers. The metalloids include elements such as silicon (<m:math><m:mi mathvariant="normal">Si</m:mi></m:math>) and germanium (<m:math><m:mi mathvariant="normal">Ge</m:mi></m:math>). Notice where these elements are positioned in the Periodic Table.</para>
+      </section><para id="eip-690">You should now be able to take any material and determine whether it is a metal, non-metal or metalloid simply by using its properties. </para><exercise id="eip-586"><title>Metals, metalloids and non-metals 1</title><problem id="eip-77">
+  <para id="eip-252">
+For each of the following substances state whether they are metals, metalloids or non-metals, using their position on the periodic table.
+<list id="eip-id1170734629720" list-type="enumerated" number-style="lower-alpha">
+<item>Oxygen</item>
+<item>Arsenic</item>
+<item>Vanadium</item>
+<item>Potassium</item>
+</list>
+  </para>
+</problem>
+
+<solution id="eip-149">
+<list id="eip-id1170750216596" list-type="enumerated" number-style="lower-alpha">
+<item>Oxygen is on the right of the zigzag line and so is a non-metal.</item>
+<item>Arsenic is on the zigzag line and is a metalloid.</item>
+<item>Vandaium is on the left of zigzag line and so is a metal.</item>
+<item>Potassium is on the left of the zigzag line and so is a metal.</item>
+</list>
+</solution>
+</exercise><exercise id="eip-173"><title>Metals, metalloids and non-metals 2</title><problem id="eip-757">
+  <para id="eip-25442">For each of the following substances state whether they are metals, metalloids or non-metals, using the information given.
+<list id="eip-id1170742635239" list-type="enumerated" number-style="lower-alpha"><item>Aluminium in a cooking pot</item>
+<item>Silicon in a computer chip</item>
+<item>Plastic insulation around a wire</item>
+<item>Silver jewellery</item>
+</list>
+  </para>
+</problem>
+
+<solution id="eip-1455">
+<list id="eip-id1170755988427" list-type="enumerated" number-style="lower-alpha"><item>A cooking pot needs to be able to conduct heat and so the aluminium used must be a metal.</item>
+<item>Computer chips rely on semi-conductors and all metalloids are semiconductors. So silicon is a metalloid.</item>
+<item>The plastic around the wire must be insulating to current and so is a non-metal.</item>
+<item>Silver in the jewellery is chosen for its malleability and shiny lustre. So silver is a metal.</item>
+</list>
+</solution></exercise>
+    </section>
+    <para id="eip-346">Definitions:
+      <definition id="eip-id1170659051541">
+        <label/>
+        <term>Physical Capital</term>
+        <meaning id="eip-id1170659074676">(Machinery, computers, physical infrastructure including roads, harbors, bridges etc.). Physical capital is often called “produced” capital.  China increased its physical capital by an almost incredible 540% from 1980 to 2008.</meaning>
+      </definition>
+    </para>
+
+    <!-- image is missing in media here, no self closing span here -->
+<figure id="CNX_UPhysics_27_05_ChargeRC">
+<media id="fs-id1172099463127" alt="The figure shows four graphs of capacitor charging, with time on the x-axis. Parts a shows charge of the capacitor on the y-axis, the value increases from 0 to C&#949; and is equal to 0.632 C&#949; after 1 &#964;. Parts b shows current of the resistor on the y-axis, the value decreases from I subscript 0 to 0 and is equal to 0.368 I subscript 0 after 1 &#964;. Parts c shows voltage of the capacitor on the y-axis, the value increases from 0 to &#949; and is equal to 0.632 &#949; after 1 &#964;. Parts d shows voltage of the resistor on the y-axis, the value decreases from &#949; to 0 and is equal to 0.368 &#949; after 1 &#964;."></media>
+</figure>
+
+<!-- test for no-selfclose comment here -->
+<div></div>
+<div>content1</div>
+<div id="test1a"></div>
+<div id="test1b">content2</div>
+<div><span></span></div>
+<div><span>content3</span></div>
+<div id="test1c"><span id="test1d"></span></div>
+<span></span>
+<span id="test1e"></span>
+<span id="test1f">content4</span>
+
+
+<para id="emphexample">
+      In addition to bananas and ice cream, a
+      <emphasis effect="underline">proper</emphasis> banana split requires whipped cream,
+      nuts, <emphasis effect="underline"/>
+      <emphasis>and</emphasis>
+      cherries.  Remember that the
+      <emphasis effect="smallcaps">quality</emphasis> of
+      the dessert depends on the ice cream, so do
+      <emphasis effect="italics">not</emphasis>
+      use a
+      <emphasis effect="normal">generic</emphasis>brand.
+    </para>
+    <para id="broken-content">
+      In m42218,
+      <emphasis effect="italic">italic</emphasis> was used instead of
+      <emphasis effect="italics"> italics</emphasis>.
+      If the effect is
+      <emphasis effect="itelics">misspelled</emphasis>, it should be treated as not having an effect.
+    </para>
+
+
+  <figure id="idm45763482823568">
+    <code id="idm45763482823264">Text</code>
+  </figure>
+
+  <figure id="idm45763482822752">
+    <label>Label</label>
+    <title>Title</title>
+    <code id="idm45763482821696">Text</code>
+    <caption>Caption</caption>
+  </figure>
+
+  <figure id="id123" orient="vertical" type="foo">
+    <code id="idm45763482819648">Text</code>
+  </figure>
+
+  <figure id="empty-figure"/>
+  <figure id="no-caption">
+    <caption/>
+  </figure>
+
+  <para id="idm45763482819056">Inside a para (make sure the title is a span, not a div):
+    <figure id="idm45763482818720">
+      <label>Label</label>
+      <title>Title</title>
+      <code id="idm45763482817584">Text</code>
+      <caption>Caption</caption>
+    </figure>
+  </para>
+
+  <figure id="idm45763482816496">
+
+    <subfigure id="idm45763482815776">
+      <code id="idm45763482815520">Text</code>
+      <caption>Subfigure Caption</caption>
+    </subfigure>
+    <subfigure id="idm45763482815888">
+      <code id="idm45763482815999">Text</code>
+      <caption>Subfigure Caption</caption>
+    </subfigure>
+    <caption>Figure Caption</caption>
+
+  </figure>
+
+
+  <para id="idm46678431439360"> ... </para>
+
+  <para id="idm46678431438976">(observed<footnote id="eip-id1169737806114">Predicted by theory and first observed in 1983.</footnote>)</para>
+
+  <para id="idm46678431437824">Gluons (conjectured<footnote id="eip-id1169738239687">Eight proposed—indirect evidence of existence. Underlie meson exchange.</footnote>)</para>
+
+  <para id="idm46678431436560"> ... </para>
+
+  <para id="m42720-example">
+    <footnote id="import-auto-footnote-1"> Stated values are according to the National Institute of Standards and Technology Reference on Constants, Units, and Uncertainty,
+      <link url="http://www.physics.nist.gov/cuu">www.physics.nist.gov/cuu</link>(accessed May 18, 2012). Values in parentheses are the uncertainties in the last digits. Numbers without uncertainties are exact as defined.
+    </footnote>
+  </para>
+
+  <para>
+    <footnote id="p1">
+      <para id="p012">I am blockish and should be unwrapped</para>
+    </footnote>
+  </para>
+
+  <para>
+    <footnote id="p2"> contains blockish element: <para id="p123">I am blockish</para> more text</footnote>
+  </para>
+
+  <para>
+    <footnote id="p3"> contains blockish element: <para id="p234">I am blockish</para><para id="p345">I am also blockish</para> more text</footnote>
+  </para>
+
+  <para>
+    <footnote id="p4">
+      <list>
+        <item>I am blockish</item>
+        <item>Not sure what to do with lists</item>
+      </list>
+    </footnote>
+  </para>
+
+  <note><!-- just to make sure the note doesn't also collect the footnotes -->
+    <table>
+      <title>
+        <footnote id="linktome-tt">should remain in the table caption but below the title span</footnote>
+        <sup><footnote id="linktome-tts">should remain in the table caption but below the title span</footnote></sup>
+      </title>
+      <caption>
+        <footnote id="linktome-tc">should remain in the caption</footnote>
+      </caption>
+      <tgroup>
+        <thead>
+          <row>
+            <entry>
+              <footnote id="linktome-th">should remain in the th</footnote>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <footnote id="linktome-tb">should remain in the td</footnote>
+            </entry>
+            <entry>
+              <para>
+                <footnote id="linktome-tbp">should move below the para</footnote>
+              </para>
+            </entry>
+            <entry>
+              <sup>
+                <footnote id="linktome-tbs">should remain in the td but be below the sup</footnote>
+              </sup>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </note>
+
+<note>
+  <title>
+    <footnote id="linktome-nt">should move below the title or below the note</footnote>
+  </title>
+  <para>
+    <footnote id="linktome-np">should move below the para</footnote>
+    <sup>
+      <footnote id="linktome-nps">should move below the para</footnote>
+    </sup>
+  </para>
+</note>
+
+<exercise>
+  <problem>
+    <para>
+      <footnote id="linktome-epp">should move below the para</footnote>
+    </para>
+  </problem>
+  <solution>
+    <para>
+      <footnote id="linktome-esp">should move below the para</footnote>
+    </para>
+  </solution>
+</exercise>
+
+<figure>
+  <caption>
+    <footnote id="linktome-fc">should remain in the caption</footnote>
+  </caption>
+</figure>
+
+<example>
+  <para>
+    <footnote id="linktome-ep">should move below the para</footnote>
+  </para>
+</example>
+
+<section>
+  <section>
+    <title>
+      <footnote id="linktome-sst">should move below the title or below the section</footnote>
+    </title>
+    <para>
+      <quote>
+        <footnote id="linktome-sspq">should move below the para</footnote>
+      </quote>
+    </para>
+    <note>
+      <para>
+        <quote>
+          <footnote id="linktome-ssnpq">should move below the para</footnote>
+        </quote>
+      </para>
+      <list>
+        <item>
+          <footnote id="linktome-ssnli">should remain in the list item</footnote>
+          <para><footnote id="linktome-ssnlip">should remain in the list item</footnote></para>
+        </item>
+      </list>
+      <figure>
+        <caption>
+          <footnote id="linktome-ssnfc">should remain in the caption</footnote>
+        </caption>
+      </figure>
+    </note>
+    <para>
+      <footnote id="linktome-ssp">should end up below the para</footnote>
+      <sup><footnote id="linktome-ssps">should end up below the para</footnote></sup>
+    </para>
+    <list>
+      <item>
+        <footnote id="linktome-ssli">should remain as a child of item</footnote>
+        <para><footnote id="linktome-sslip">should remain as a child of item</footnote></para>
+      </item>
+    </list>
+  </section>
+</section>
+
+<para>
+  <footnote id="linktome-p">should move below the para</footnote>
+</para>
+
+  <para id="import-auto-id1170614047950">...</para>
+
+        <section id="fs-id1828656">
+            <title>Ohm’s Law</title>
+        <para xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1170614047620">The current that flows through most substances is directly proportional to the voltage <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> applied to it. The German physicist Georg Simon Ohm (1787–1854) was the first to demonstrate experimentally that the current in a metal wire is <emphasis effect="italics">directly proportional to the voltage applied</emphasis>:</para><equation id="eip-103"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">∝</m:mo><m:mi>V</m:mi></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I  prop  V.} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1170614065536">This important relationship is known as <term id="import-auto-id1170614061213">Ohm’s law</term>. It can be viewed as a cause-and-effect relationship, with voltage the cause and current the effect. This is an empirical law like that for friction—an experimentally observed phenomenon. Such a linear relationship doesn’t always occur.</para>
+        </section>
+        
+        <section id="fs-id3088760">
+            <title>Resistance and Simple Circuits</title>
+        <para xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1170614065817">If voltage drives current, what impedes it? The electric property that impedes current (crudely similar to friction and air resistance) is called <term id="import-auto-id1170614065376">resistance</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>. Collisions of moving charges with atoms and molecules in a substance transfer energy to the substance and limit current. Resistance is defined as inversely proportional to current, or</para><equation id="eip-593"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">∝</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>R</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I  prop   {  {1}  over  {R} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1170614063309">Thus, for example, current is cut in half if resistance doubles. Combining the relationships of current to voltage and current to resistance gives</para>
+        </section>
+
+        <para id="idm46216949062912">...</para>
+
+    <section id="eip-220">
+      <media id="eip-idm1388625936" alt="An image comparing the functions of the parasympathetic nervous system to the central nervous system." longdesc="35-4-2-longdesc.txt">
+        <image mime-type="image/jpeg" src="Figure_35_04_02.jpg"/>
+      </media>
+      <media id="eip-idm218242960" alt="An image comparing the autonomic functions of the parasympathetic nervous system to the central nervous system." longdesc="35-4-1-longdesc.txt">
+        <image mime-type="image/png" src="Figure_35_04_01f.png"/>
+      </media>
+      <media id="eip-idm1044738256" alt="dog on couch" longdesc="dog-longdesc.txt">
+        <image mime-type="image/jpeg" src="image1.jpg"/>
+      </media>
+      <media id="eip-idm1044738258" alt="dog with thumbnail" longdesc="dog-and-thumbs-longdesc.txt">
+        <image mime-type="image/jpeg" src="image1.jpg" thumbnail='dog_thumb.jpg'/>
+      </media>
+    </section>
+
+  <list id="idm45791213869968">
+    <item>
+      <label>label</label>
+      item
+    </item>
+  </list>
+
+    <para id="linkexample">
+      There are many ways to grill
+      <link document="m10275" version="2.1">a good
+      steak</link>.  My favorite can be found
+      <link url="http://en.wikibooks.org/" window="new">on wikibooks</link>.
+    </para>
+    <para id="linkexample2">
+      Link with
+      <link document="col12345" target-id="image1">a target id</link>in another document.
+    </para>
+    <para id="linkexample3">
+      Link with
+      <link class="cnxn" target-id="uid12" window="replace">a target id</link>in this document.
+    </para>
+    <para id="linkexample4">
+      Link to
+      <link document="m12345" resource="form.pdf">a resource file</link>.
+    </para>
+    <para id="linkexample5">
+      Link with
+      <link id="link5" strength="2" url="http://cnx.org">strength</link>.
+    </para>
+    <para id="linkexample6">
+      <span>
+        <link target-id="uid27"/>with no text.
+      </span>
+    </para>
+
+ <list id="list-enumerated" list-type="enumerated">
+      <item>item</item>
+    </list>
+    <list id="list-arabic" list-type="enumerated" number-style="arabic">
+      <item>item</item>
+    </list>
+    <list id="list-upper-alpha" list-type="enumerated" number-style="upper-alpha">
+      <item>item</item>
+    </list>
+    <list id="list-lower-alpha" list-type="enumerated" number-style="lower-alpha">
+      <item>item</item>
+    </list>
+    <list id="list-upper-roman" list-type="enumerated" number-style="upper-roman">
+      <item>item</item>
+    </list>
+    <list id="list-lower-roman" list-type="enumerated" number-style="lower-roman">
+      <item>item</item>
+    </list>
+
+    <para id="para-list-enumerated">
+      <list id="para-list-enumerated-list" list-type="enumerated" number-style="upper-alpha" start-value="3">
+        <item>item</item>
+      </list>
+    </para>
+
+    <section id="idm45159773377600">
+      <title>Lists NOT in a paragraph</title>
+      <list id="idm45159773376592">
+        <item>list with item</item>
+      </list>
+      <list id="idm45159773375472">
+        <title>and title</title>
+        <item>and item</item>
+      </list>
+      <section id="idm45159773276544">
+        <title>Default list:</title>
+        <para id="idm45159773275632">with just an id attribute</para>
+        <list id="idm45159773274928">
+          <item>and item</item>
+        </list>
+        <list id="idm45159773273792">
+          <title>and title</title>
+          <item>and item</item>
+        </list>
+        <para id="idm45159773272336">... enumerated lower-alpha</para>
+        <list id="idm45159773271584" display="none" item-sep="[SEPARATOR]" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" list-type="enumerated" type="LIST_TYPE" number-style="lower-alpha">
+          <item>list with all attributes</item>
+        </list>
+        <para id="idm45159773268624">... bulleted lower-alpha</para>
+        <list id="idm45159773267920" bullet-style="open-circle" display="none" item-sep="[SEPARATOR]" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" list-type="bulleted" type="LIST_TYPE">
+          <title>list with all attributes and title</title>
+          <item>and item</item>
+        </list>
+        <section id="id-empty-section"/>
+      </section>
+      <section id="idm45159773264416">
+        <title>Bulleted list:</title>
+        <para id="idm45159773263472">with just an id attribute</para>
+        <list id="idm45159773262768" list-type="bulleted">
+          <item>and item</item>
+        </list>
+        <list id="idm45159773261424" list-type="bulleted">
+          <title>and title</title>
+          <item>and item</item>
+        </list>
+        <para id="idm45159773259664">... with all attributes</para>
+        <list id="idm45159773258976" bullet-style="open-circle" display="none" item-sep="[SEPARATOR]" list-type="bulleted" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" type="LIST-TYPE">
+          <item>list with all attributes</item>
+        </list>
+        <list id="idm45159773256016" bullet-style="open-circle" display="none" item-sep="[SEPARATOR]" list-type="bulleted" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" type="LIST-TYPE">
+          <title>list with all attributes and title</title>
+          <item>and item</item>
+        </list>
+      </section>
+      <section id="idm45159773252464">
+        <title>Enumerated list:</title>
+        <para id="idm45159773251520">with just an id attribute</para>
+        <list id="idm45159773250816" list-type="enumerated">
+          <item>and item</item>
+        </list>
+        <list id="idm45159773249504" list-type="enumerated">
+          <title>and title</title>
+          <item>and item</item>
+        </list>
+        <para id="idm45159773247776">... with all attributes</para>
+        <list id="idm45159773247040" bullet-style="open-circle" display="none" item-sep="[SEPARATOR]" list-type="bulleted" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" type="LIST-TYPE">
+          <item>list with all attributes</item>
+        </list>
+        <list id="idm45159773243568" bullet-style="open-circle" display="none" item-sep="[SEPARATOR]" list-type="bulleted" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" type="LIST-TYPE">
+          <title>list with all attributes and title</title>
+          <item>and item</item>
+        </list>
+      </section>
+      <section id="idm45159773239552">
+        <title>Labeled-Item list:</title>
+        <list id="idm45159773238608" list-type="labeled-item">
+          <item>
+            <label>with a label</label>and item
+          </item>
+        </list>
+      </section>
+    </section>
+    <para id="idm45159773236576">---------------------------------------------------------------------------------------</para>
+    <para id="idm45159773235920">---------------------------------------------------------------------------------------</para>
+    <para id="idm45159773235168">---------------------------------------------------------------------------------------</para>
+    <section id="idm45159773234416">
+      <title>The same tests but inside a paragraph (lists with titles should become spans instead of divs</title>
+      <para id="idm45159773233392">...
+        <list id="idm45159773232832">
+          <item>list with item</item>
+        </list>...
+      </para>
+      <para id="idm45159773231600">...
+        <list display="inline">
+          <item>list with item (inline)</item>
+        </list>...
+      </para>
+      <para id="idm45159773229536">...
+        <list id="idm45159773228976">
+          <title>and title</title>
+          <item>and item</item>
+        </list>...
+      </para>
+      <para id="idm45159773227328">...
+        <list display="inline">
+          <title>and title</title>
+          <item>and item (inline)</item>
+        </list>...
+      </para>
+      <section id="idm45159773224848">
+        <title>Default list:</title>
+        <para id="idm45159773223904">with just an id attribute</para>
+        <para id="idm45159773223200">...
+          <list id="idm45159773222640">
+            <item>and item</item>
+          </list>...
+        </para>
+        <para id="idm45159773221440">...
+          <list display="inline">
+            <item>and item (inline)</item>
+          </list>...
+        </para>
+        <para id="idm45159773219376">...
+          <list id="idm45159773218816">
+            <title>and title</title>
+            <item>and item</item>
+          </list>...
+        </para>
+        <para id="idm45159773217200">...
+          <list display="inline">
+            <title>and title</title>
+            <item>and item (inline)</item>
+          </list>...
+        </para>
+        <para id="idm45159773214720">... with all attributes</para>
+        <para id="idm45159773214032">...
+          <list id="idm45159773213472" item-sep="[SEPARATOR]" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" number-style="lower-alpha" start-value="3" type="LIST-TYPE" list-type="enumerated">
+            <item>list with all attributes</item>
+          </list>...
+        </para>
+        <para id="idm45159773210384">...
+          <list display="inline" item-sep="[SEPARATOR]" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" number-style="lower-alpha" start-value="3" type="LIST-TYPE" list-type="enumerated">
+            <item>list with all attributes (inline)</item>
+          </list>...
+        </para>
+        <para id="idm45159773206432">...
+          <list id="idm45159773205872" display="block" item-sep="[SEPARATOR]" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" number-style="lower-alpha" start-value="3" type="LIST-TYPE" list-type="enumerated">
+            <title>list with all attributes and title</title>
+            <item>and item</item>
+          </list>...
+        </para>
+        <para id="idm45159773202096">...
+          <list display="inline" item-sep="[SEPARATOR]" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" number-style="lower-alpha" start-value="3" type="LIST-TYPE" list-type="enumerated">
+            <title>list with all attributes and title</title>
+            <item>and item (inline)</item>
+          </list>...
+        </para>
+      </section>
+      <section id="idm45159773197600">
+        <title>Bulleted list:</title>
+        <para id="idm45159773196656">with just an id attribute</para>
+        <para id="idm45159773195952">...
+          <list id="idm45159773195392" list-type="bulleted">
+            <item>and item</item>
+          </list>...
+        </para>
+        <para id="idm45159773193920">...
+          <list display="inline" list-type="bulleted">
+            <item>and item (inline)</item>
+          </list>...
+        </para>
+        <para id="idm45159773191584">...
+          <list id="idm45159773191024" list-type="bulleted">
+            <title>and title</title>
+            <item>and item</item>
+          </list>...
+        </para>
+        <para id="idm45159773189136">...
+          <list display="inline" list-type="bulleted">
+            <title>and title</title>
+            <item>and item (inline)</item>
+          </list>...
+        </para>
+        <para id="idm45159773186384">... with all attributes</para>
+        <para id="idm45159773185696">...
+          <list id="idm45159773185136" bullet-style="open-circle" item-sep="[SEPARATOR]" list-type="bulleted" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" type="LIST-TYPE">
+            <item>list with all attributes</item>
+          </list>...
+        </para>
+        <para id="idm45159773181776">...
+          <list bullet-style="open-circle" display="inline" item-sep="[SEPARATOR]" list-type="bulleted" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" type="LIST-TYPE">
+            <item>list with all attributes (inline)</item>
+          </list>...
+        </para>
+        <para id="idm45159773177552">...
+          <list id="idm45159773176992" bullet-style="open-circle" display="block" item-sep="[SEPARATOR]" list-type="bulleted" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" type="LIST-TYPE">
+            <title>list with all attributes and title</title>
+            <item>and item</item>
+          </list>...
+        </para>
+        <para id="idm45159773172944">...
+          <list bullet-style="open-circle" display="inline" item-sep="[SEPARATOR]" list-type="bulleted" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" type="LIST-TYPE">
+            <title>list with all attributes and title</title>
+            <item>and item (inline)</item>
+          </list>...
+        </para>
+      </section>
+      <section id="idm45159773168176">
+        <title>Enumerated list:</title>
+        <para id="idm45159773167232">with just an id attribute</para>
+        <para id="idm45159773166528">...
+          <list id="idm45159773165968" list-type="enumerated">
+            <item>and item</item>
+          </list>...
+        </para>
+        <para id="idm45159773164496">...
+          <list display="inline" list-type="enumerated">
+            <item>and item (inline)</item>
+          </list>...
+        </para>
+        <para id="idm45159773162160">...
+          <list id="idm45159773161600" list-type="enumerated">
+            <title>and title</title>
+            <item>and item</item>
+          </list>...
+        </para>
+        <para id="idm45159773159712">...
+          <list display="inline" list-type="enumerated">
+            <title>and title</title>
+            <item>and item (inline)</item>
+          </list>...
+        </para>
+        <para id="idm45159773156960">... with all attributes</para>
+        <para id="idm45159773156272">...
+          <list id="idm45159773155712" display="block" item-sep="[SEPARATOR]" list-type="enumerated" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" number-style="lower-alpha" start-value="3" type="LIST-TYPE">
+            <item>list with all attributes</item>
+          </list>...
+        </para>
+        <para id="idm45159773152080">...
+          <list display="inline" item-sep="[SEPARATOR]" list-type="enumerated" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" number-style="lower-alpha" start-value="3" type="LIST-TYPE">
+            <item>list with all attributes (inline)</item>
+          </list>...
+        </para>
+        <para id="idm45159773147856">...
+          <list id="idm45159773147296" display="block" item-sep="[SEPARATOR]" list-type="enumerated" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" number-style="lower-alpha" start-value="3" type="LIST-TYPE">
+            <title>list with all attributes and title</title>
+            <item>and item</item>
+          </list>...
+        </para>
+        <para id="idm45159773143248">...
+          <list display="inline" item-sep="[SEPARATOR]" list-type="enumerated" mark-prefix="[PREFIX]" mark-suffix="[SUFFIX]" number-style="lower-alpha" start-value="3" type="LIST-TYPE">
+            <title>list with all attributes and title</title>
+            <item>and item (inline)</item>
+          </list>...
+        </para>
+      </section>
+      <section id="idm45159773138480">
+        <title>Labeled-Item list:</title>
+        <para id="idm45159773137536">...
+          <list id="idm45159773136976" list-type="labeled-item">
+            <item>
+              <label>with a label</label>and item
+            </item>
+          </list>...
+        </para>
+        <para id="idm45159773135040">...
+          <list display="inline" list-type="labeled-item">
+            <item>
+              <label>with a label</label>and item (inline)
+            </item>
+          </list>...
+        </para>
+      </section>
+    </section>
+
+
+     <para id="fs-id1168327934938">Często spotykamy się z koniecznością przekształcania jednostek. Załóżmy, że chcesz użyć przepisu z amerykańskiej książki kucharskiej. Jeśli objętość podano w uncjach, musisz je przekształcić na mililitry. Jeśli natomiast czytasz opis szlaku górskiego znajdującego się w Anglii i chcesz wiedzieć, jak wysoko położony jest szczyt, przeliczysz stopy na metry.</para><para id="fs-id1168328205340">Zaraz przekonamy się, jak proste jest przekształcanie jednostek. Załóżmy, że chcemy przedstawić 80 m w kilometrach. Na początku powinniśmy wypisać jednostki, w których podany jest pomiar oraz jednostki, na które chcemy dokonać konwersji – w rozważanym przez nas przypadku pomiar podany jest w metrach, a chcemy przedstawić go przy pomocy kilometrów. Następnie musimy określić przelicznik metrów na kilometry. <term class="no-emphasis" cmlnle:reference="przelicznik">Przelicznik</term> (ang. <foreign><term cxlxt:index="foreign" class="no-emphasis">conversion factor</term></foreign>) jest to stosunek, który określa, ile razy dana jednostka mieści się w innej. Na przykład 12 cali to jedna stopa, 1609 m to mila, 100 cm to 1 m, 60 s to 1 min i tak dalej. Aby zobaczyć listę przeliczników zajrzyj do <link class="target-chapter" document="m65852">Dodatku B</link>. Wiemy, że 1000 m to 1 km, więc możemy dokonać konwersji jednostek. Wypisujemy podaną wartość wraz z jednostką, a następnie mnożymy ją przez przelicznik tak, aby jednostki się skróciły:</para><equation id="fs-id1168328201234" class="unnumbered">
+    <label/>
+    <m:math>
+      <m:mn>80</m:mn>
+      <m:mspace width="0.2em"/>
+      <m:menclose notation="updiagonalstrike">
+        <m:mtext>m</m:mtext>
+      </m:menclose>
+      <m:mo>·</m:mo>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mspace width="0.2em"/>
+          <m:mtext>km</m:mtext>
+        </m:mrow>
+        <m:mrow>
+          <m:mn>1000</m:mn>
+          <m:mspace width="0.2em"/>
+          <m:menclose notation="updiagonalstrike">
+            <m:mtext>m</m:mtext>
+          </m:menclose>
+        </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo>
+      <m:mn>0,080</m:mn>
+      <m:mspace width="0.2em"/>
+      <m:mtext>km</m:mtext>
+      <m:mo>.</m:mo>
+    </m:math>
+  </equation>
+  <para id="fs-id1168327941758">Zauważ, że metry ulegają skróceniu, w związku z czym otrzymujemy wynik w kilometrach. Tej metody możesz użyć do konwersji jednostek opisujących wszystkie wielkości fizyczne. Konwersji 80 m na kilometry można dokonać tylko poprzez użycie odpowiedniego przedrostka, więc taki sam wynik możemy uzyskać za pomocą sposobu opisanego w poprzednim podrozdziale:</para>
+  <equation id="fs-id1168328191070" class="unnumbered">
+    <label/>
+    <m:math>
+      <m:mn>80</m:mn>
+      <m:mspace width="0.2em"/>
+      <m:mrow>
+        <m:mi mathvariant="normal">m</m:mi>
+      </m:mrow>
+      <m:mo>=</m:mo>
+      <m:mn>8,0</m:mn>
+      <m:mo>⋅</m:mo>
+      <m:msup>
+        <m:mn>10</m:mn>
+        <m:mn>1</m:mn>
+      </m:msup>
+      <m:mspace width="0.2em"/>
+      <m:mrow>
+        <m:mi mathvariant="normal">m</m:mi>
+      </m:mrow>
+      <m:mo>=</m:mo>
+      <m:mn>8,0</m:mn>
+      <m:mo>⋅</m:mo>
+      <m:msup>
+        <m:mn>10</m:mn>
+        <m:mrow>
+          <m:mo>−</m:mo>
+          <m:mn>2</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:mspace width="0.2em"/>
+      <m:mrow>
+        <m:mi mathvariant="normal">k</m:mi>
+        <m:mi mathvariant="normal">m</m:mi>
+      </m:mrow>
+      <m:mo>=</m:mo>
+      <m:mn>0,080</m:mn>
+      <m:mspace width="0.2em"/>
+      <m:mrow>
+        <m:mi mathvariant="normal">k</m:mi>
+        <m:mi mathvariant="normal">m</m:mi>
+      </m:mrow>
+      <m:mo>,</m:mo>
+    </m:math>
+  </equation>
+  <para id="fs-id1168328144040">ponieważ „kilo-” oznacza <m:math>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:math> (patrz <link target-id="fs-id1168326843228" document="m65734"/>), a <m:math>
+<m:mrow>
+<m:mn>1</m:mn>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+<m:mo>=</m:mo>
+<m:mn>–2</m:mn>
+</m:mrow>
+</m:math>. Jeśli jednak mamy do czynienia z systemem niemetrycznym lub z jednostkami pochodnymi, jak w kolejnym przykładzie, musimy skorzystać z metody przeliczników.</para><example id="fs-id1168328168078">
+    <para id="fs-id1168327943333">
+      <title>Konwersja jednostek niemetrycznych na metryczne</title>Uczelnia jest oddalona od domu o 10 mil i dotarcie do niej samochodem zajmuje 20 minut. Oblicz średnią prędkość w metrach na sekundę (m/s). (<emphasis effect="italics">Uwaga:</emphasis> prędkość średnia to iloraz drogi i czasu potrzebnego na jej przebycie).</para>
+      <para id="fs-id1168328184191">
+        <title>Strategia rozwiązania </title>Na początku obliczamy średnią szybkość w jednostkach, w których podana jest wartość, a następnie dokonujemy konwersji, mnożąc wynik przez odpowiedni przelicznik. Użycie przelicznika powinno spowodować skrócenie jednostek. Ponieważ chcemy przeliczyć mile na metry, musimy wiedzieć, że 1 mila jest równa 1609 metrom. Musimy również wykorzystać fakt, że 1 minuta to 60 sekund.</para>
+        <para id="fs-id1168327916801">
+          <title>Rozwiązanie</title>
+        </para>
+        <list id="fs-id1168327949701" list-type="enumerated" number-style="arabic">
+          <item>Oblicz prędkość średnią. Prędkość średnia to iloraz drogi i czasu potrzebnego na jej przebycie. (Po prostu zapamiętaj tę definicję. Tłumaczeniem prędkości średniej oraz innych zagadnień związanych z ruchem zajmiemy się w kolejnych rozdziałach). Do następującego wzoru:<newline/>
+            <equation id="fs-id1168328070162" class="unnumbered">
+              <label/>
+              <m:math>
+                <m:mtext>prędkość średnia</m:mtext>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mtext>droga</m:mtext>
+                  <m:mtext>czas</m:mtext>
+                </m:mfrac>
+                <m:mo>.</m:mo>
+              </m:math>
+            </equation>
+podstaw podane w treści zadania wartości drogi i czasu:<newline/>
+            <equation id="fs-id1168327942214" class="unnumbered">
+              <label/>
+              <m:math>
+                <m:mtext>średnia szybkość</m:mtext>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="0.2em"/>
+                    <m:mrow>
+                      <m:mi mathvariant="normal">m</m:mi>
+                      <m:mi mathvariant="normal">i</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>20</m:mn>
+                    <m:mspace width="0.2em"/>
+                    <m:mrow>
+                      <m:mi mathvariant="normal">m</m:mi>
+                      <m:mi mathvariant="normal">i</m:mi>
+                      <m:mi mathvariant="normal">n</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mn>0,50</m:mn>
+                <m:mspace width="0.2em"/>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi mathvariant="normal">m</m:mi>
+                    <m:mi mathvariant="normal">i</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi mathvariant="normal">m</m:mi>
+                    <m:mi mathvariant="normal">i</m:mi>
+                    <m:mi mathvariant="normal">n</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>.</m:mo>
+              </m:math>
+            </equation>
+          </item>
+          <item>Zamień mile na minutę na metry na sekundę, mnożąc wynik przez pierwszy przelicznik, którego użycie spowoduje skrócenie mil, oraz przez drugi przelicznik, którego użycie spowoduje skrócenie minut:<newline/>
+            <equation id="fs-id1168327891322" class="unnumbered">
+              <label/>
+              <m:math>
+                <m:mn>0,50</m:mn>
+                <m:mspace width="0.2em"/>
+                <m:mfrac>
+                  <m:menclose notation="updiagonalstrike">
+                    <m:mtext>mi</m:mtext>
+                  </m:menclose>
+                  <m:menclose notation="downdiagonalstrike">
+                    <m:mtext>min</m:mtext>
+                  </m:menclose>
+                </m:mfrac>
+                <m:mo>·</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1609</m:mn>
+                    <m:mspace width="0.2em"/>
+                    <m:mtext>m</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="0.2em"/>
+                    <m:menclose notation="updiagonalstrike">
+                      <m:mtext>mi</m:mtext>
+                    </m:menclose>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>·</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="0.2em"/>
+                    <m:menclose notation="downdiagonalstrike">
+                      <m:mtext>min</m:mtext>
+                    </m:menclose>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>60</m:mn>
+                    <m:mspace width="0.2em"/>
+                    <m:mtext>s</m:mtext>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>0,50</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mn>1609</m:mn>
+                  </m:mrow>
+                  <m:mn>60</m:mn>
+                </m:mfrac>
+                <m:mspace width="0.2em"/>
+                <m:mtext>m/s</m:mtext>
+                <m:mo>=</m:mo>
+                <m:mn>13</m:mn>
+                <m:mspace width="0.2em"/>
+                <m:mtext>m/s</m:mtext>
+                <m:mo>.</m:mo>
+              </m:math>
+            </equation>
+          </item>
+        </list>
+        <para id="fs-id1168327957037">
+          <title>Znaczenie</title>Możesz sprawdzić swój wynik w następujący sposób:</para>
+          <list id="fs-id1168328187129" list-type="enumerated" number-style="arabic">
+            <item>Upewnij się, że jednostki ulegają skróceniu. Jeżeli się pomylisz i zamienisz licznik z mianownikiem, jednostki się nie skrócą. Mile znajdujące się w liczniku pierwszego ułamka skracają się z milami znajdującymi się w mianowniku drugiego ułamka, natomiast minuty znajdujące się w mianowniku pierwszego ułamka skracają się z minutami znajdującymi się w liczniku drugiego.</item>
+            <item>Upewnij się również, że wynik przedstawiony jest w odpowiednich jednostkach – w naszym przypadku mają to być metry na sekundę. Ponieważ mile uległy skróceniu, jedyne jednostki, jakie pozostały, to metry w liczniku oraz sekundy w mianowniku – jednostki są poprawne.</item>
+          </list>
+        </example>
+        <note id="fs-id1168327874278" class="check-understanding">
+          <exercise id="fs-id1168328327747">
+            <problem id="fs-id1168327988106">
+              <para id="fs-id1168328242532">
+                <emphasis effect="bold">Sprawdź, czy rozumiesz. </emphasis> Światło przebywa drogę około 9 Pm na rok. Wiedząc, że rok ma około <m:math>
+                  <m:mn>3</m:mn>
+                  <m:mo>⋅</m:mo>
+                  <m:msup>
+                    <m:mn>10</m:mn>
+                    <m:mn>7</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.2em"/>
+                  <m:mrow>
+                    <m:mi mathvariant="normal">s</m:mi>
+                  </m:mrow>
+                  </m:math>, oblicz prędkość światła w metrach na sekundę.</para>
+                </problem>
+                <solution id="fs-id1168328199684">
+                  <para id="fs-id1168327986853">
+                    <m:math>
+                      <m:mn>3</m:mn>
+                      <m:mo>⋅</m:mo>
+                      <m:msup>
+                        <m:mn>10</m:mn>
+                        <m:mn>8</m:mn>
+                      </m:msup>
+                      <m:mspace width="0.2em"/>
+                      <m:mrow>
+                        <m:mi mathvariant="normal">m</m:mi>
+                        <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                        <m:mi mathvariant="normal">s</m:mi>
+                      </m:mrow>
+                    </m:math>
+                  </para>
+                </solution>
+              </exercise>
+            </note>
+            <example id="fs-id1168328289500">
+              <para id="fs-id1168327965188">
+                <title>Zamiana jednostek metrycznych</title>W warunkach normalnych żelazo ma gęstość <m:math>
+                  <m:mn>7,86</m:mn>
+                  <m:mspace width="0.2em"/>
+                  <m:mrow>
+                    <m:mi mathvariant="normal">g</m:mi>
+                    <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                    <m:mi mathvariant="normal">c</m:mi>
+                    <m:msup>
+                      <m:mi mathvariant="normal">m</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>. Przedstaw tę liczbę w <m:math>
+                <m:mrow>
+                  <m:mi mathvariant="normal">k</m:mi>
+                  <m:mi mathvariant="normal">g</m:mi>
+                  <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                  <m:msup>
+                    <m:mi mathvariant="normal">m</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+                </m:math>.</para>
+                <para id="fs-id1168327961631">
+                  <title>Strategia rozwiązania </title>Musimy zamienić gramy na kilogramy oraz centymetry sześcienne na metry sześcienne. Przeliczniki, które będą nam potrzebne, to <m:math>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="0.2em"/>
+                    <m:mrow>
+                      <m:mi mathvariant="normal">k</m:mi>
+                      <m:mi mathvariant="normal">g</m:mi>
+                    </m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mspace width="0.2em"/>
+                    <m:mrow>
+                      <m:mi mathvariant="normal">g</m:mi>
+                    </m:mrow>
+                  </m:math> i <m:math>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="0.2em"/>
+                  <m:mrow>
+                    <m:mi mathvariant="normal">c</m:mi>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mn>10</m:mn>
+                    <m:mrow>
+                      <m:mo>−</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mspace width="0.2em"/>
+                  <m:mrow>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:math>. Ponieważ jednak w zadaniu występują centymetry sześcienne (<m:math>
+                <m:mrow>
+                  <m:mi mathvariant="normal">c</m:mi>
+                  <m:msup>
+                    <m:mi mathvariant="normal">m</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mrow>
+                  <m:mi mathvariant="normal">c</m:mi>
+                  <m:mi mathvariant="normal">m</m:mi>
+                  <m:mo>⋅</m:mo>
+                  <m:mi mathvariant="normal">c</m:mi>
+                  <m:mi mathvariant="normal">m</m:mi>
+                  <m:mo>⋅</m:mo>
+                  <m:mi mathvariant="normal">c</m:mi>
+                  <m:mi mathvariant="normal">m</m:mi>
+                </m:mrow>
+                </m:math>), drugiego przelicznika będziemy musieli użyć trzy razy (to znaczy podnieść go do trzeciej potęgi). Wciąż zależy nam na tym, aby niechciane jednostki się skróciły.</para>
+                <para id="fs-id1168328196730">
+                  <title>Rozwiązanie</title>
+                </para>
+                <equation id="fs-id1168328194417" class="unnumbered">
+                  <label/>
+                  <m:math>
+                    <m:mn>7,86</m:mn>
+                    <m:mspace width="0.1em"/>
+                    <m:mfrac>
+                      <m:menclose notation="updiagonalstrike">
+                        <m:mtext>g</m:mtext>
+                      </m:menclose>
+                      <m:msup>
+                        <m:menclose notation="downdiagonalstrike">
+                          <m:mtext>cm</m:mtext>
+                        </m:menclose>
+                        <m:mn>3</m:mn>
+                      </m:msup>
+                    </m:mfrac>
+                    <m:mo>·</m:mo>
+                    <m:mfrac>
+                      <m:mtext>kg</m:mtext>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mn>10</m:mn>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:menclose notation="updiagonalstrike">
+                          <m:mtext>g</m:mtext>
+                        </m:menclose>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mfrac>
+                          <m:menclose notation="downdiagonalstrike">
+                            <m:mtext>cm</m:mtext>
+                          </m:menclose>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mn>10</m:mn>
+                              <m:mn>−2</m:mn>
+                            </m:msup>
+                            <m:mo/>
+                            <m:mtext>m</m:mtext>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mn>7,86</m:mn>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mn>10</m:mn>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>·</m:mo>
+                        <m:msup>
+                          <m:mn>10</m:mn>
+                          <m:mn>−6</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mspace width="0.1em"/>
+                    <m:msup>
+                      <m:mtext>kg/m</m:mtext>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>7,86</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mspace width="0.2em"/>
+                    <m:msup>
+                      <m:mtext>kg/m</m:mtext>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:math>
+                </equation>
+                <para id="fs-id1168328280234">
+                  <title>Znaczenie</title>Pamiętaj, aby zawsze sprawdzić swoje rozwiązanie.</para>
+                  <list id="fs-id1168327984172" list-type="enumerated" number-style="arabic"><item>Upewnij się, że poprawnie skracasz jednostki. Widzimy, że gramy (g) w liczniku pierwszego ułamka skracają się z gramami znajdującymi się w mianowniku pierwszego przelicznika oraz że centymetry sześcienne (<m:math display="inline"><m:msup><m:mi mathvariant="normal">m</m:mi><m:mn>3</m:mn></m:msup></m:math>) znajdujące się w mianowniku pierwszego ułamka skracają się z centymetrami podniesionymi do potęgi trzeciej w liczniku drugiego przelicznika.</item>
+                      <item>Upewnij się, że wynik podany jest w wymaganych jednostkach. W tym przypadku wynik mieliśmy podać w kilogramach na metr sześcienny. Po skróceniu jednostek otrzymujemy [kg] w liczniku oraz „m” podniesione do potęgi trzeciej w mianowniku (czyli metr sześcienny lub [<m:math>
+                        <m:msup>
+                          <m:mtext>m</m:mtext>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        </m:math>] – oznacza to, że wynik jest poprawny).</item>
+                      </list></example>
+                    <note id="fs-id1168327874671" class="check-understanding">
+                      <exercise id="fs-id1168327876191">
+                        <problem id="fs-id1168328204361">
+                          <para id="fs-id1168327929521"><emphasis effect="bold">Sprawdź, czy rozumiesz.</emphasis> Dzięki informacjom zawartym w <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m65733" cmlnle:case="locative"/> wiesz, że rząd wielkości średnicy Ziemi jest równy <m:math>
+                              <m:msup>
+                                <m:mn>10</m:mn>
+                                <m:mn>7</m:mn>
+                              </m:msup>
+                              <m:mspace width="0.2em"/>
+                              <m:mrow>
+                                <m:mi mathvariant="normal">m</m:mi>
+                              </m:mrow>
+                            </m:math>, a więc rząd wielkości jej powierzchni wynosi <m:math>
+                            <m:msup>
+                              <m:mn>10</m:mn>
+                              <m:mrow>
+                                <m:mn>14</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mspace width="0.2em"/>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi mathvariant="normal">m</m:mi>
+                                <m:mn>2</m:mn>
+                              </m:msup>
+                            </m:mrow>
+                          </m:math>. Przedstaw tę wartość w kilometrach kwadratowych (<m:math>
+                          <m:msup>
+                            <m:mtext>km</m:mtext>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:math>). (Spróbuj zamienić jednostki na dwa sposoby: najpierw zamieniając <m:math>
+                        <m:msup>
+                          <m:mn>10</m:mn>
+                          <m:mrow>
+                            <m:mn>7</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mspace width="0.2em"/>
+                        <m:mrow>
+                          <m:mi mathvariant="normal">m</m:mi>
+                        </m:mrow>
+                      </m:math> na kilometry i podnosząc wynik do kwadratu, a następnie bezpośrednio zamieniając <m:math>
+                      <m:msup>
+                        <m:mn>10</m:mn>
+                        <m:mrow>
+                          <m:mn>14</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mspace width="0.2em"/>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi mathvariant="normal">m</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                      </m:math> na kilometry kwadratowe. W obu przypadkach powinieneś uzyskać taką samą odpowiedź).</para></problem>
+                    <solution id="fs-id1168327864339">
+                      <para id="fs-id1168328228670">
+                        <m:math>
+                          <m:msup>
+                            <m:mn>10</m:mn>
+                            <m:mrow>
+                              <m:mn>8</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mspace width="0.2em"/>
+                          <m:mrow>
+                            <m:mi mathvariant="normal">k</m:mi>
+                            <m:msup>
+                              <m:mi mathvariant="normal">m</m:mi>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                          </m:mrow>
+                        </m:math>
+                      </para>
+                    </solution>
+                  </exercise>
+                </note>
+                <para id="fs-id1168328063269">Zamiana jednostek może wydawać się niezbyt ciekawa, ale pominięcie jej podczas obliczeń może nas wiele kosztować. Taka sytuacja miała miejsce, kiedy NASA wysłała w przestrzeń kosmiczną sondę <term class="no-emphasis">Mars Climate Orbiter</term>. Sondę wystrzelono 11 grudnia 1998 roku, a 23 września 1999 roku, podczas próby skierowania sondy na orbitę Marsa, utracono z nią kontakt. W wyniku późniejszego dochodzenia odkryto, że oprogramowanie SM_FORCES (lub <emphasis effect="italics">small forces</emphasis>) odbierające instrukcje dotyczące trajektorii lotu jako jednostki używało funt-siły, podczas gdy oprogramowanie służące do wyznaczania korekty tej trajektorii wyrażone było w niutonach. Tor lotu uległ znacznej zmianie, w związku z czym sonda prawdopodobnie odleciała w przestrzeń lub spaliła się w atmosferze Marsa. Ten błąd kosztował setki milionów dolarów, nie wspominając o straconym czasie, jaki poświęcono na zaplanowanie misji.</para>
+                  <note id="fs-id1168327869372" class="check-understanding">
+                    <exercise id="fs-id1168328059712">
+                      <problem id="fs-id1168328224586">
+                        <para id="fs-id1168327873248">
+                          <emphasis effect="bold">Sprawdź, czy rozumiesz.</emphasis> Wiedząc, że 1 lb (funt-siła) jest równy 4,45 N (niutonom), oceń, czy SM_FORCES generowało zbyt duże, czy zbyt małe wartości siły.</para>
+                        </problem>
+                        <solution id="fs-id1168328289312">
+                          <para id="fs-id1168328242737">Wartości były 4,45 raza za małe.</para>
+                        </solution>
+                      </exercise>
+                    </note>
+                    <section id="fs-id1168328267596" class="key-concepts">
+                      <title>Podsumowanie</title>
+                      <list id="fs-id1168328066342" list-type="bulleted" bullet-style="bullet"><item>Aby zamienić daną jednostkę na inną, pomnóż wartość przez przelicznik w taki sposób, aby niechciana jednostka uległa skróceniu.</item>
+                        <item>Zwróć uwagę na obliczenia zawierające pola powierzchni i objętości. Jednostki podlegają prawom matematyki, więc nie możemy skrócić jednostki podniesionej do kwadratu z jednostką, która jest w pierwszej potędze.</item>
+                      </list></section>
+                    <section id="fs-id1168327956216" class="review-problems">
+                      <title>Zadania</title>
+                      <exercise id="fs-id1168327939270">
+                        <problem id="fs-id1168327926028">
+                          <para id="fs-id1168328193378">Rząd objętości kuli ziemskiej jest równy <m:math>
+                            <m:msup>
+                              <m:mn>10</m:mn>
+                              <m:mrow>
+                                <m:mn>21</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mspace width="0.2em"/>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi mathvariant="normal">m</m:mi>
+                                <m:mn>3</m:mn>
+                              </m:msup>
+                            </m:mrow>
+                          </m:math>. <list id="eip-idm610992768" list-type="enumerated" number-style="lower-alpha">
+                          <item> Przedstaw tę wartość w metrach sześciennych (<m:math>
+                            <m:msup>
+                              <m:mtext>km</m:mtext>
+                              <m:mn>3</m:mn>
+                            </m:msup>
+                            </m:math>). </item>
+                            <item> Przedstaw tę wartość w milach sześciennych (<m:math>
+                              <m:msup>
+                                <m:mtext>mi</m:mtext>
+                                <m:mn>3</m:mn>
+                              </m:msup>
+                              </m:math>). </item>
+                              <item> Przedstaw tę wartość w centymetrach sześciennych (<m:math>
+                                <m:msup>
+                                  <m:mtext>cm</m:mtext>
+                                  <m:mn>3</m:mn>
+                                </m:msup>
+                                </m:math>). </item>
+                              </list>
+                            </para>
+                          </problem>
+                        </exercise>
+                        <exercise id="fs-id1168327854111">
+                          <problem id="fs-id1168327874834">
+                            <para id="fs-id1168328177870">Ograniczenie prędkości na niektórych drogach ekspresowych jest równe 100 km/h.
+<list id="eip-idm464707728" list-type="enumerated" number-style="lower-alpha">
+                                <item> Przedstaw tę wartość w metrach na sekundę. </item>
+                                <item> Przedstaw tę wartość w milach na godzinę. </item>
+                              </list>
+                            </para>
+                          </problem>
+                          <solution id="fs-id1168328294280">
+                            <list id="fs-id1168328269910" list-type="enumerated" number-style="lower-alpha">
+                              <item> 27,8 m/s; </item>
+                              <item> 62 mi/h.</item>
+                            </list>
+                          </solution>
+                        </exercise>
+                        <exercise id="fs-id1168328285914">
+                          <problem id="fs-id1168328071458">
+                            <para id="fs-id1168327876205">Samochód jedzie z prędkością 33 m/s.<list id="eip-idm189120192" list-type="enumerated" number-style="lower-alpha">
+                              <item> Przedstaw tę wartość w kilometrach na godzinę. </item>
+                              <item> Czy kierowca przekroczył dopuszczalną prędkość, jeśli ograniczenie na tej drodze jest równe 90 km/h? </item>
+                            </list>
+                          </para>
+                        </problem>
+                      </exercise>
+                      <exercise id="fs-id1168328059510">
+                        <problem id="fs-id1168328229974">
+                          <para id="fs-id1168327951931">Jednostką prędkości w układzie SI jest metr na sekundę (m/s). Być może przyzwyczaiłeś się jednak do tego, że prędkość podaje się w kilometrach na godzinę (km/h) lub w milach na godzinę (mi/h), w zależności od tego, gdzie mieszkasz. Rozwiązanie tego zadania uświadomi ci, że 1 m/s jest równy około 4 km/h lub 2 mi/h – ta wiedza pomoże ci kształtować fizyczną intuicję. Udowodnij, że <list id="eip-idm459809552" list-type="enumerated" number-style="lower-alpha">
+                            <item>
+                              <m:math>
+                                <m:mn>1,0</m:mn>
+                                <m:mspace width="0.2em"/>
+                                <m:mrow>
+                                  <m:mi mathvariant="normal">m</m:mi>
+                                  <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                                  <m:mi mathvariant="normal">s</m:mi>
+                                </m:mrow>
+                                <m:mo>=</m:mo>
+                                <m:mn>3,6</m:mn>
+                                <m:mspace width="0.2em"/>
+                                <m:mrow>
+                                  <m:mi mathvariant="normal">k</m:mi>
+                                  <m:mi mathvariant="normal">m</m:mi>
+                                  <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                                  <m:mi mathvariant="normal">h</m:mi>
+                                </m:mrow>
+                                </m:math>; </item>
+                                <item>
+                                  <m:math>
+                                    <m:mn>1,0</m:mn>
+                                    <m:mspace width="0.2em"/>
+                                    <m:mrow>
+                                      <m:mi mathvariant="normal">m</m:mi>
+                                      <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                                      <m:mi mathvariant="normal">s</m:mi>
+                                    </m:mrow>
+                                    <m:mo>=</m:mo>
+                                    <m:mn>2,2</m:mn>
+                                    <m:mspace width="0.2em"/>
+                                    <m:mrow>
+                                      <m:mi mathvariant="normal">m</m:mi>
+                                      <m:mi mathvariant="normal">i</m:mi>
+                                      <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                                      <m:mi mathvariant="normal">h</m:mi>
+                                    </m:mrow>
+                                    </m:math>. </item>
+                                  </list>
+                                </para>
+                              </problem>
+                            </exercise>
+                            <exercise id="fs-id1168327924198">
+                              <problem id="fs-id1168328170085">
+                                <para id="fs-id1168328293595">Boisko do amerykańskiego futbolu ma długość 100 jardów, nie wliczając w to stref końcowych. Jaka jest długość boiska w metrach? (Przyjmij, że <m:math>
+                                  <m:mn>1</m:mn>
+                                  <m:mspace width="0.2em"/>
+                                  <m:mrow>
+                                    <m:mi mathvariant="normal">m</m:mi>
+                                  </m:mrow>
+                                  <m:mo>=</m:mo>
+                                  <m:mn>3,281</m:mn>
+                                  <m:mspace width="0.2em"/>
+                                  <m:mtext>stopy</m:mtext>
+                                  </m:math>).</para>
+                                </problem>
+                              </exercise>
+                              <exercise id="fs-id1168328297906">
+                                <problem id="fs-id1168327931904">
+                                  <para id="fs-id1168327933995">Boiska do piłki nożnej mają różne wymiary. Duże boisko może mieć 115 m długości i 85,0 m szerokości. Jaka jest jego powierzchnia w stopach kwadratowych? (Przyjmij, że <m:math>
+                                    <m:mn>1</m:mn>
+                                    <m:mspace width="0.2em"/>
+                                    <m:mrow>
+                                      <m:mi mathvariant="normal">m</m:mi>
+                                    </m:mrow>
+                                    <m:mo>=</m:mo>
+                                    <m:mn>3,281</m:mn>
+                                    <m:mspace width="0.2em"/>
+                                    <m:mtext>stopy</m:mtext>
+                                    </m:math>).</para>
+                                  </problem>
+                                  <solution id="fs-id1168328059139">
+                                    <para id="fs-id1168328169332">
+                                      <m:math>
+                                        <m:mn>1,05</m:mn>
+                                        <m:mo>⋅</m:mo>
+                                        <m:msup>
+                                          <m:mn>10</m:mn>
+                                          <m:mn>5</m:mn>
+                                        </m:msup>
+                                        <m:mspace width="0.2em"/>
+                                        <m:mrow>
+                                          <m:mi mathvariant="normal">s</m:mi>
+                                          <m:mi mathvariant="normal">t</m:mi>
+                                          <m:mi mathvariant="normal">o</m:mi>
+                                          <m:mi mathvariant="normal">p</m:mi>
+                                          <m:msup>
+                                            <m:mi mathvariant="normal">a</m:mi>
+                                            <m:mn>2</m:mn>
+                                          </m:msup>
+                                        </m:mrow>
+                                      </m:math>
+                                    </para>
+                                  </solution>
+                                </exercise>
+                                <exercise id="fs-id1168328222458">
+                                  <problem id="fs-id1168327943116">
+                                    <para id="fs-id1168327956404">Jeśli pewien człowiek mierzy 6 stóp i 1,0 cala, to jaki jest jego wzrost w metrach?</para>
+                                  </problem>
+                                </exercise>
+                                <exercise id="fs-id1168327939869">
+                                  <problem id="fs-id1168327922500">
+                                    <para id="fs-id1168328295075">Mount Everest ma wysokość 29,028 ft i jest najwyższym szczytem na Ziemi. Jaka jest jego wysokość w kilometrach? (Przyjmij, że <m:math>
+                                      <m:mn>1</m:mn>
+                                      <m:mspace width="0.2em"/>
+                                      <m:mrow>
+                                        <m:mi mathvariant="normal">m</m:mi>
+                                      </m:mrow>
+                                      <m:mo>=</m:mo>
+                                      <m:mn>3,281</m:mn>
+                                      <m:mspace width="0.2em"/>
+                                      <m:mtext>stopy</m:mtext>
+                                      </m:math>).</para>
+                                    </problem>
+                                    <solution id="fs-id1168328025151">
+                                      <para id="fs-id1168328059572">8,847 km</para>
+                                    </solution>
+                                  </exercise>
+                                  <exercise id="fs-id1168328222906">
+                                    <problem id="fs-id1168328189735">
+                                      <para id="fs-id1168328301961">Zmierzono prędkość dźwięku i uzyskano pomiar 342 m/s. Przedstaw tę wartość w kilometrach na godzinę.</para>
+                                    </problem>
+                                  </exercise>
+                                  <exercise id="fs-id1168328171083">
+                                    <problem id="fs-id1168328247343">
+                                      <para id="fs-id1168328222416">Płyty tektoniczne są to olbrzymie segmenty litosfery, które powoli się przemieszczają. Załóżmy, że jedna z tych płyt porusza się ze średnią prędkością równą 4,0 cm na rok.                                         <list id="eip-idm1215633728" list-type="enumerated" number-style="lower-alpha">
+                                          <item> O ile przesuwa się płyta w ciągu 1,0 s? </item>
+                                          <item> Jaka jest prędkość płyty w kilometrach na milion lat? </item>
+                                        </list>
+                                      </para>
+                                    </problem>
+                                    <solution id="fs-id1168327911343">
+                                      <list id="fs-id1168327940797" list-type="enumerated" number-style="lower-alpha">
+                                        <item>
+                                          <m:math>
+                                            <m:mn>1,3</m:mn>
+                                            <m:mo>⋅</m:mo>
+                                            <m:msup>
+                                              <m:mn>10</m:mn>
+                                              <m:mrow>
+                                                <m:mo>−</m:mo>
+                                                <m:mn>9</m:mn>
+                                              </m:mrow>
+                                            </m:msup>
+                                            <m:mspace width="0.2em"/>
+                                            <m:mrow>
+                                              <m:mi mathvariant="normal">m</m:mi>
+                                            </m:mrow>
+                                            </m:math>; </item>
+                                            <item> 40 km na million lat.</item>
+                                          </list>
+                                        </solution>
+                                      </exercise>
+                                      <exercise id="fs-id1168328294774">
+                                        <problem id="fs-id1168328222883">
+                                          <para id="fs-id1168327872186">Średnia odległość Ziemi od Słońca jest równa <m:math>
+                                            <m:mn>1,5</m:mn>
+                                            <m:mo>⋅</m:mo>
+                                            <m:msup>
+                                              <m:mn>10</m:mn>
+                                              <m:mrow>
+                                                <m:mn>11</m:mn>
+                                              </m:mrow>
+                                            </m:msup>
+                                            <m:mspace width="0.2em"/>
+                                            <m:mrow>
+                                              <m:mi mathvariant="normal">m</m:mi>
+                                            </m:mrow>
+                                          </m:math>. <newline/>
+                                          <list id="eip-idm228015824" list-type="enumerated" number-style="lower-alpha">
+                                            <item> Oblicz średnią prędkość ruchu Ziemi po orbicie w metrach na sekundę (przyjmij, że orbita jest okrągła). </item>
+                                            <item> Przedstaw tę prędkość w milach na godzinę. </item>
+                                          </list>
+                                        </para>
+                                      </problem>
+                                    </exercise>
+                                    <exercise id="fs-id1168328311640">
+                                      <problem id="fs-id1168328364226">
+                                        <para id="fs-id1168328025058">Gęstość materii jądrowej jest równa około <m:math>
+                                          <m:msup>
+                                            <m:mn>10</m:mn>
+                                            <m:mrow>
+                                              <m:mn>18</m:mn>
+                                            </m:mrow>
+                                          </m:msup>
+                                          <m:mspace width="0.2em"/>
+                                          <m:mrow>
+                                            <m:mi mathvariant="normal">k</m:mi>
+                                            <m:mi mathvariant="normal">g</m:mi>
+                                            <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                                            <m:msup>
+                                              <m:mi mathvariant="normal">m</m:mi>
+                                              <m:mn>3</m:mn>
+                                            </m:msup>
+                                          </m:mrow>
+                                        </m:math>. Wiedząc, że 1 ml ma objętość <m:math>
+                                        <m:mn>1</m:mn>
+                                        <m:mspace width="0.2em"/>
+                                        <m:mrow>
+                                          <m:mi mathvariant="normal">c</m:mi>
+                                          <m:msup>
+                                            <m:mi mathvariant="normal">m</m:mi>
+                                            <m:mn>3</m:mn>
+                                          </m:msup>
+                                        </m:mrow>
+                                      </m:math>, przedstaw gęstość materii jądrowej w megagramach na mikrolitr (<m:math>
+                                      <m:mrow>
+                                        <m:mi mathvariant="normal">M</m:mi>
+                                        <m:mi mathvariant="normal">g</m:mi>
+                                        <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                                        <m:mi>μ</m:mi>
+                                        <m:mi mathvariant="normal">l</m:mi>
+                                      </m:mrow>
+                                      </m:math>)?</para>
+                                    </problem>
+                                    <solution id="fs-id1168328240950">
+                                      <para id="fs-id1168328329673">
+                                        <m:math>
+                                          <m:msup>
+                                            <m:mn>10</m:mn>
+                                            <m:mrow>
+                                              <m:mn>6</m:mn>
+                                            </m:mrow>
+                                          </m:msup>
+                                          <m:mspace width="0.2em"/>
+                                          <m:mrow>
+                                            <m:mi mathvariant="normal">M</m:mi>
+                                            <m:mi mathvariant="normal">g</m:mi>
+                                            <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                                            <m:mi>μ</m:mi>
+                                            <m:mi mathvariant="normal">l</m:mi>
+                                          </m:mrow>
+                                        </m:math>.
+                                      </para>
+                                    </solution>
+                                  </exercise>
+                                  <exercise id="fs-id1168328064287">
+                                    <problem id="fs-id1168328201081">
+                                      <para id="fs-id1168328175768">Aluminium ma gęstość <m:math>
+                                        <m:mn>2,7</m:mn>
+                                        <m:mspace width="0.2em"/>
+                                        <m:mrow>
+                                          <m:mi mathvariant="normal">g</m:mi>
+                                          <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                                          <m:mi mathvariant="normal">c</m:mi>
+                                          <m:msup>
+                                            <m:mi mathvariant="normal">m</m:mi>
+                                            <m:mn>3</m:mn>
+                                          </m:msup>
+                                        </m:mrow>
+                                        </m:math>. Podaj jego gęstość w kilogramach na metr sześcienny. </para>
+                                      </problem>
+                                    </exercise>
+                                    <exercise id="fs-id1168328170090">
+                                      <problem id="fs-id1168327961174">
+                                        <para id="fs-id1168327923356">Jednostką masy w brytyjskim systemie miar jest funt (lbm). Oblicz gęstość wody w funtach na stopę sześcienną wiedząc, że <m:math>
+                                          <m:mn>1</m:mn>
+                                          <m:mspace width="0.2em"/>
+                                          <m:mrow>
+                                            <m:mi mathvariant="normal">l</m:mi>
+                                            <m:mi mathvariant="normal">b</m:mi>
+                                            <m:mi mathvariant="normal">m</m:mi>
+                                          </m:mrow>
+                                          <m:mo>=</m:mo>
+                                          <m:mn>0,454</m:mn>
+                                          <m:mspace width="0.2em"/>
+                                          <m:mrow>
+                                            <m:mi mathvariant="normal">k</m:mi>
+                                            <m:mi mathvariant="normal">g</m:mi>
+                                          </m:mrow>
+                                          </m:math>.</para>
+                                        </problem>
+                                        <solution id="fs-id1168327931285">
+                                          <para id="fs-id1168327879321">62,4 funtów na stopę sześcienną</para>
+                                        </solution>
+                                      </exercise>
+                                      <exercise id="fs-id1168327871170">
+                                        <problem id="fs-id1168327935365">
+                                          <para id="fs-id1168327873821">Furlong to 220 jardów. Przekształć 1 furlong na dwa tygodnie na milimetry na sekundę. </para>
+                                        </problem>
+                                      </exercise>
+                                      <exercise id="fs-id1168327941954">
+                                        <problem id="fs-id1168327918284">
+                                          <para id="fs-id1168328181668">Aby okrążyć koło, potrzebne są <m:math>
+                                            <m:mrow>
+                                              <m:mn>2</m:mn>
+                                              <m:mi>π</m:mi>
+                                            </m:mrow>
+                                          </m:math> radiany (rad), czyli <m:math>
+                                          <m:msup>
+                                            <m:mn>360</m:mn>
+                                            <m:mo>∘</m:mo>
+                                          </m:msup>
+                                        </m:math>. Ile radianów jest w <m:math>
+                                        <m:msup>
+                                          <m:mn>1</m:mn>
+                                          <m:mo>∘</m:mo>
+                                        </m:msup>
+                                        </m:math> ?</para>
+                                      </problem>
+                                      <solution id="fs-id1168327854847">
+                                        <para id="fs-id1168328190635">0,017 rad</para>
+                                      </solution>
+                                    </exercise>
+                                    <exercise id="fs-id1168328293255">
+                                      <problem id="fs-id1168327953647">
+                                        <para id="fs-id1168328185095">Światło przebywa drogę około <m:math>
+                                          <m:mn>3</m:mn>
+                                          <m:mo>⋅</m:mo>
+                                          <m:msup>
+                                            <m:mn>10</m:mn>
+                                            <m:mn>8</m:mn>
+                                          </m:msup>
+                                          <m:mspace width="0.2em"/>
+                                          <m:mrow>
+                                            <m:mi mathvariant="normal">m</m:mi>
+                                            <m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/>
+                                            <m:mi mathvariant="normal">s</m:mi>
+                                          </m:mrow>
+                                        </m:math>. Światłominuta to droga, jaką przebywa światło w ciągu 1 min. Słońce znajduje się <m:math>
+                                        <m:mn>1,5</m:mn>
+                                        <m:mo>⋅</m:mo>
+                                        <m:msup>
+                                          <m:mn>10</m:mn>
+                                          <m:mrow>
+                                            <m:mn>11</m:mn>
+                                          </m:mrow>
+                                        </m:msup>
+                                        <m:mspace width="0.2em"/>
+                                        <m:mrow>
+                                          <m:mi mathvariant="normal">m</m:mi>
+                                        </m:mrow>
+                                        </m:math> od Ziemi. Przedstaw tę odległość w światłominutach.</para>
+                                      </problem>
+                                    </exercise>
+                                    <exercise id="fs-id1168328303932">
+                                      <problem id="fs-id1168327927709">
+                                        <para id="fs-id1168327983780">Światłonanosekunda to droga, jaką przebywa światło w ciągu 1 ns. Przekształć 1 stopę na światłonanosekundy. </para>
+                                      </problem>
+                                      <solution id="fs-id1168327943341">
+                                        <para id="fs-id1168328329635">1 światłonanosekunda</para>
+                                      </solution>
+                                    </exercise>
+                                    <exercise id="fs-id1168327934441">
+                                      <problem id="fs-id1168327982880">
+                                        <para id="fs-id1168327943847">Masa elektronu jest równa <m:math>
+                                          <m:mn>9,11</m:mn>
+                                          <m:mo>⋅</m:mo>
+                                          <m:msup>
+                                            <m:mn>10</m:mn>
+                                            <m:mrow>
+                                              <m:mo>−</m:mo>
+                                              <m:mn>31</m:mn>
+                                            </m:mrow>
+                                          </m:msup>
+                                          <m:mspace width="0.2em"/>
+                                          <m:mrow>
+                                            <m:mi mathvariant="normal">k</m:mi>
+                                            <m:mi mathvariant="normal">g</m:mi>
+                                          </m:mrow>
+                                        </m:math>. Masa protonu jest równa <m:math>
+                                        <m:mn>1,67</m:mn>
+                                        <m:mo>⋅</m:mo>
+                                        <m:msup>
+                                          <m:mn>10</m:mn>
+                                          <m:mrow>
+                                            <m:mo>−</m:mo>
+                                            <m:mn>27</m:mn>
+                                          </m:mrow>
+                                        </m:msup>
+                                        <m:mspace width="0.2em"/>
+                                        <m:mrow>
+                                          <m:mi mathvariant="normal">k</m:mi>
+                                          <m:mi mathvariant="normal">g</m:mi>
+                                        </m:mrow>
+                                        </m:math>. Przedstaw masę protonu przy pomocy masy elektronu.</para>
+                                      </problem>
+                                    </exercise>
+                                    <exercise id="fs-id1168328195795">
+                                      <problem id="fs-id1168328286055">
+                                        <para id="fs-id1168328289390">Jedna uncja płynu to około 30 ml. Puszka coli ma objętość 12 uncji płynu. Jaka to objętość w metrach sześciennych? </para>
+                                      </problem>
+                                      <solution id="fs-id1168328280449">
+                                        <para id="fs-id1168327870505">
+                                          <m:math>
+                                            <m:mn>3,6</m:mn>
+                                            <m:mo>⋅</m:mo>
+                                            <m:msup>
+                                              <m:mn>10</m:mn>
+                                              <m:mrow>
+                                                <m:mo>−</m:mo>
+                                                <m:mn>4</m:mn>
+                                              </m:mrow>
+                                            </m:msup>
+                                            <m:mspace width="0.2em"/>
+                                            <m:mrow>
+                                              <m:msup>
+                                                <m:mi mathvariant="normal">m</m:mi>
+                                                <m:mn>3</m:mn>
+                                              </m:msup>
+                                            </m:mrow>
+                                          </m:math>
+                                        </para>
+                                      </solution>
+                                    </exercise>
+                                  </section>
+
+
+
+  <para id="idm46342028798864">Audio and Video</para>
+
+  <media id="id124" alt="alternate">
+    <audio src="file.mp3" mime-type="audio/mp3" autoplay="true" loop="true" controller="true" volume="1" standby="true">
+      <param name="author" value="John Doe"/>
+    </audio>
+
+    <video src="file.mp4" mime-type="video/mp4" autoplay="true" loop="true" controller="true" volume="11">
+
+      <param name="author" value="John Doe"/>
+    </video>
+
+    <audio src="file.mp3" mime-type="audio/mp3" for="pdf"/>
+    <audio src="file.mp4" mime-type="video/mp4" for="pdf"/>
+  </media>
+
+  <para id="idm46342028788944">Flash examples</para>
+
+  <media id="id123" alt="alternate" longdesc="url.txt">
+    <flash src="file.swf" mime-type="application/x-shockwave-flash"/>
+    <flash id="id-flash" src="file.swf" mime-type="application/x-shockwave-flash" for="online" wmode="opaque" quality="autolow" loop="false" scale="noorder" bgcolor="#ffff00" flash-vars="var1" height="100" width="100" longdesc="url.txt">
+      <param name="flash-name" value="flash-value"/>
+    </flash>
+  </media>
+
+  <para id="idm46342028781152">Labview Examples</para>
+
+
+  <media id="id-labview" alt="alternate">
+    <labview src="file.vi" mime-type="application/x-labview-vi" viname="the-path" version="7.0"/>
+
+    <labview src="file.vi" mime-type="application/x-labview-vi" viname="the-path" version="7.0" for="online" height="100" width="200" longdesc="url.txt" id="id-labview-1"/>
+
+    <labview src="file.vi" mime-type="application/x-labviewrpvi80" viname="the-path" version="7.0" for="online" height="100" width="200" longdesc="url.txt" id="id-labview-2"/>
+  </media>
+
+  <para id="idm46342028773136">Java Examples</para>
+
+  <media id="id-java-applet" alt="alternate">
+    <java-applet code="org.cnx.Applet.class" mime-type="application/x-java-applet"/>
+
+    <java-applet id="id-java-applet-1" code="org.cnx.Applet.class" mime-type="application/x-java-applet" for="online" codebase="src/path" archive="src.jar,more.jar" name="Applet" src="Applet.java" height="100" width="200" longdesc="url.txt">
+      <param name="param-name" value="param-value"/>
+    </java-applet>
+
+  </media>
+
+  <para id="idm46342028766752">Hacky way of using Images to make a link to a jar file</para>
+
+  <media id="idm46342028766368" alt="alternate">
+    <image mime-type="image/png" for="online" src="equation-grapher_en.jar" thumbnail="PhET_Icon.png" width="450"/>
+  </media>
+
+  <para id="idm46342028763984">But for PDF do not do anything special</para>
+
+  <media id="idm46342028763552" alt="alternate">
+    <image mime-type="image/png" for="pdf" src="equation-grapher_en.jar" thumbnail="PhET_Icon.png" width="450"/>
+  </media>
+
+  <para id="idm46342028761344">From College Physics, m42596</para>
+
+  <figure id="eip-id2970922">
+    <media alt="" id="Phet_module_31.3">
+      <image for="online" mime-type="image/png" src="hydrogen-atom_en.jar" thumbnail="PhET_Icon.png" width="450"/>
+      <image for="Pdf" mime-type="image/png" src="PhET_Icon.png" width="450"/>
+    </media>
+    <caption>
+      <link url="hydrogen-atom_en.jar">Models of the Hydrogen Atom</link>
+    </caption>
+  </figure>
+
+  <para id="idm46342028905152">From Introductory Statistics, m46909</para>
+  <figure id="eip-idp25549888">
+    <media alt="This is a dot plot showing average hours of sleep. The number line is marked in intervals of 1 from 5 to 9. Dots above the line show 1 person reporting 5 hours, 1 with 5.5, 3 with 6, 4 with 6.5, 2 with 7, 2 with 8, and 1 with 9 hours." id="id44761709a" longdesc="m16020_DotPlot_description.html">
+      <image mime-type="image/png" src="fig-ch01_02_01n.png" width="380">
+        <param name="longdesc" value="m16020_DotPlot_description.html"/>
+      </image>
+    </media>
+  </figure>
+
+  <media id="course-syl" alt="Business Ethics Course Syllabus">
+    <download mime-type="application/msword" src="Business Ethics Spring 2007.doc"/>
+    <download mime-type="application/msword" src=""/>
+  </media>
+
+
+
+ <para id="p1">
+  <newline/>
+  <newline effect="normal"/>
+  <newline effect="underline"/>
+  <newline id="id123"/>
+  <newline count="3"/>
+  <newline id="id456" effect="underline"/>
+  <newline effect="underline" count="3"/>
+  <newline id="id789" effect="underline" count="3"/>
+  </para>
+  <para id="idm46259579218000"><newline/></para>
+  <list id="idm46259579217616">
+    <item><newline/><newline effect="underline"/></item>
+  </list>
+
+
+  <para id="idm46259579216400">
+    <space/>
+    <space effect="normal"/>
+    <space effect="underline"/>
+    <space id="id0123"/>
+    <space count="3"/>
+    <space id="id0456" effect="underline"/>
+    <space effect="underline" count="3"/>
+    <space id="id0789" effect="underline" count="3"/>
+  </para>
+
+  <para id="idm46259579211072">The following is not implemented yet</para>
+  <para id="idm46259579210640"><newline effect="underline"/></para>
+  <list id="idm46259579209984"><item><newline/></item></list>
+
+
+  <note id="id123">Body</note>
+  <note id="id456" class="custom">Body</note>
+
+  <note id="idm46182773372208" type="Point of Interest">Body</note>
+  <note id="idm46182773371520" type="Tip">Body</note>
+
+  <note id="idm46182773370816"><label>Custom Label</label>Body</note>
+
+  <note id="id789">
+    <label>Custom Label</label>
+    <title>Custom Title</title>
+    <para id="id1234">
+      <title>Para Title</title>
+      Para Text
+    </para>
+  </note>
+
+  <note id="label-and-type-1" type="Hint">
+    <label>Hint</label>Hint Body
+  </note>
+
+  <note id="label-and-type-2" type="Hint">
+    <label>Custom Label</label>Hint Body 2
+  </note>
+
+  <note id="label-and-type-3" type="Hint">Hint Body 3
+  </note>
+
+    <para id="keep1">This test unwraps blockish elements (table, figure, list, etc) that are a child of a para.</para>
+
+    <para id="inline-quote1"><quote id="keep2"></quote></para>
+
+    <para id="inline-quote2">
+      <quote id="keep3"></quote>
+    </para>
+
+    <!-- ensure the attributes on this para are preserved -->
+    <para id="keep4" class="keep">
+      before
+      <term id="keep5">inline element1</term>
+      before2
+      <quote id="keep6"></quote>
+      between
+      <term id="keep7">inline element2</term>
+      between2
+      <quote id="keep8"></quote>
+      after
+      <term id="keep9">inline element3</term>
+      after2
+    </para>
+
+
+    <!-- TODO: ensure the attributes on this para are preserved -->
+    <para id="keep-but-move-down10" class="keep">
+      <note id="keep11"></note>
+      <note id="keep12"></note>
+      after
+    </para>
+
+    <para id="keep13">
+      before
+      <note id="keep14"></note>
+      between
+      <note id="keep15"></note>
+      after
+    </para>
+
+    <para id="REMOVE3">
+      <table id="keep16" summary="">
+        <tgroup cols="1">
+          <tbody>
+            <row>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </para>
+
+
+    <para id="keep17">
+      some text
+      <term id="keep18">and an element</term>
+      and more text
+      <table id="keep19" summary="">
+        <tgroup cols="1">
+          <tbody>
+            <row>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      some text
+      <term id="keep20">and an element</term>
+      and more text
+      <table id="keep21" summary="">
+        <tgroup cols="1">
+          <tbody>
+            <row>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      and even more text
+    </para>
+
+
+    <para id="REMOVE4">
+      <equation id="keep22"></equation>
+    </para>
+
+    <para id="xsl-fo-attributes" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" fo:font-weight="bold">some text</para>
+
+    <para id="with-pre">
+      I have some preformatted text
+      <preformat id="pre1">hi</preformat>
+    </para>
+
+    <para id="with-note">
+      What is 1+1?
+      <note id="note1">This is asking for the mathematical answer</note>
+    </para>
+
+    <para id="with-inline-list">
+      foo
+      <list list-type="labeled-item" display="inline" id="inline-list1">
+        <item>1</item>
+      </list>
+    </para>
+
+    <para id="with-list">
+      foo
+      <list id="list1">
+        <item>1</item>
+      </list>
+    </para>
+
+
+    <para id="with-figure">
+      foo
+      <figure id="fig1">
+        <media alt="" id="media1">
+          <image mime-type="image/jpg" src=""/>
+        </media>
+      </figure>
+    </para>
+
+    <para id="with-media">
+      foo
+      <media alt="" id="media2">
+        <image mime-type="image/jpg" src=""/>
+      </media>
+    </para>
+
+    <para id="with-block-media">
+      foo
+      <media alt="" id="media4" display="block">
+        <image mime-type="image/jpg" src=""/>
+      </media>
+    </para>
+
+    <para id="with-inline-media">
+      foo
+      <media alt="" id="media3" display="inline">
+        <image mime-type="image/jpg" src=""/>
+      </media>
+    </para>
+
+    <para id="with-preformat">
+      foo
+      <preformat id="pre2">preformatted text</preformat>
+    </para>
+
+    <para id="with-exercise">
+      foo
+      <exercise id="ex1">
+        <problem id="problem1">
+          <para id="problem1-para">123</para>
+        </problem>
+      </exercise>
+    </para>
+
+<section id="section-1">
+      <table id="report_card" summary="The first column             lists each course. Each row in the second column             delineates a semester. The corresponding row in            the third column shows that semester's grade.              The footer tallies the student's average.">
+        <title>Report card</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1"/>
+          <colspec colname="c2" colnum="2"/>
+          <colspec colname="c3" colnum="3"/>
+          <thead>
+            <row>
+              <entry align="center" valign="top">Course</entry>
+              <entry>Semester</entry>
+              <entry>Grade</entry>
+            </row>
+          </thead>
+          <tfoot>
+            <row>
+              <entry nameend="c2" namest="c1">
+		Average:
+              </entry>
+              <entry>85.5%</entry>
+            </row>
+          </tfoot>
+          <tbody>
+            <row>
+              <entry morerows="1">Biology</entry>
+              <entry align="center">1</entry>
+              <entry>86%</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>91%</entry>
+            </row>
+            <row>
+              <entry morerows="1">English</entry>
+              <entry>1</entry>
+              <entry>87%</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>78%</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="none" id="import-auto-id1169737909561" summary="">
+        <label/>
+        <title>Quark Composition of Selected Hadrons</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1"/>
+          <colspec colname="c2" colnum="2" colwidth="4*"/>
+          <colspec colname="c3" colnum="3" align="right"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis>Particle</emphasis>
+              </entry>
+              <entry nameend="c3" namest="c2">
+                <emphasis>Quark Composition</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry nameend="c3" namest="c1">
+                <emphasis>
+                  <emphasis effect="italics">Mesons</emphasis>
+                </emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry nameend="c2" namest="c1">0</entry>
+              <entry>1</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+
+  <para id="p1">
+  <link url="http://cnx.org"/>
+  <link url="http://cnx.org">Custom <emphasis>content</emphasis></link>
+  <link url="http://cnx.org" id="id014">with an id</link>
+  </para>
+
+  <para id="p2">
+  <link document="m123">to a module</link>
+  <link document="m123" target-id="id456">to an id in a module</link>
+  <link document="m123" resource="resource.txt">to a resource in a module</link>
+  </para>
+
+  <para id="p3">
+  <link version="1.1" document="m123">to a module version</link>
+  <link version="1.1" document="m123" target-id="id456">to an id in a module version</link>
+  <link version="1.1" document="m123" resource="resource.txt">to a resource in a module version</link>
+  </para>
+
+
+  <para id="p4">
+  <link url="http://cnx.org" window="replace">in the same window</link>
+  <link url="http://cnx.org" window="new">in a new window</link>
+
+  <link url="http://cnx.org" strength="2">with a strength</link>
+  </para>
+
+  <para id="idm45444807851888">---------------------------------------------------------------</para>
+
+  <para id="idm45444807851424">FIXME: the data-to-term attribute is fungible and may disappear</para>
+
+
+  <para id="p6">
+  <term id="id012">with an id</term>
+
+  <term url="http://cnx.org">Custom <emphasis>content</emphasis></term>
+  <term url="http://cnx.org" id="id013">with an id</term>
+
+
+  <term document="m123">to a module</term>
+  <term document="m123" target-id="id456">to an id in a module</term>
+  <term document="m123" resource="resource.txt">to a resource in a module</term>
+
+  <term version="1.1" document="m123">to a module version</term>
+  <term version="1.1" document="m123" target-id="id456">to an id in a module version</term>
+  <term version="1.1" document="m123" resource="resource.txt">to a resource in a module version</term>
+
+
+  <term url="http://cnx.org" window="replace">in the same window</term>
+  <term url="http://cnx.org" window="new">in a new window</term>
+  </para>
+
+
+
+  <section id="sectioned-section">
+    <title>Introduction </title>
+    <para id="titled"><title>Sumario en espanol</title>Principales programas de la preparación son diseñados para asegurar que candidatos que completen exitosamente los programas son calificados e informado, y han tenido experiencias de liderazgo que preparan ellos competir para posiciones de liderazgo en las escuelas de hoy (Arrastre y Moorma, 2003). ... </para>
+    <para id="id1164845159023">...</para>
+  </section>
+
+  <section id="section-with-empty-title">
+    <title />
+  </section>
+
+    <section id="listed-section">
+      <title>Section Title</title>
+      <!-- This list should be a section, because it has a title. -->
+      <list id="listed-section-list" list-type="bulleted" bullet-style="bullet">
+        <title>1. First you:</title>
+        <item><emphasis effect="italics">Convene a group of teachers to evaluate progress toward the school mission. </emphasis></item>
+        <item><emphasis effect="italics">Evaluate the effectiveness of the reading (or math) intervention program.</emphasis></item>
+      </list>
+
+      <section id="listed-subsection-one">
+        <title>subsection 1</title>
+        <section id="listed-subsection-one-one">
+          <title>subsection 1.1</title>
+          <!-- The list will now be created as a section of depth 4 -->
+          <list id="listed-subsectioned-list">
+            <title>1. Maybe you can...</title>
+            <item><emphasis effect="italics">Assess the rigor or coherence of the curricular program at my school</emphasis></item>
+            <item><emphasis effect="italics">Develop an induction plan for new teachers</emphasis></item>
+          </list>
+        </section>
+      </section>
+    </section>
+
+    <section id="tabled-section">
+
+      <table id="tabled-section-table" summary="Table 1">
+        <title>
+          <emphasis effect="italics">Board Member Community Types</emphasis>
+        </title>
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>Community Type</entry>
+              <entry>Percentage of Males Responding</entry>
+              <entry>Percentage of Females Responding</entry>
+            </row>
+            <row>
+              <entry>Large City</entry>
+              <entry>6. 6</entry>
+              <entry>4. 1</entry>
+            </row>
+            <row>
+              <entry>Small City</entry>
+              <entry>14. 8</entry>
+              <entry>21. 6</entry>
+            </row>
+            <row>
+              <entry>Suburban</entry>
+              <entry>31. 1</entry>
+              <entry>16. 2</entry>
+            </row>
+            <row>
+              <entry>Rural and Small Town</entry>
+              <entry>47. 5</entry>
+              <entry>58. 1</entry>
+            </row>
+            <row>
+              <entry>TOTAL</entry>
+              <entry>100. 0</entry>
+              <entry>100. 0</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+    </section>
+
+    <!-- m48096 // 6965fe04-f7fd-4214-b1d9-cdf67a49a6b8 -->
+    <section id="noted-section">
+      <note id="noted-section-note" class="interactive">
+        <label/>
+        <title>Link to Learning</title>
+        <para id="fs-idm39005168">
+          This combination
+          <link window="new" url="http://shapeoflife.org/video/animation/annelid-animation-body-plan">video and animation</link>
+          provides a close-up look at annelid anatomy.
+        </para>
+      </note>
+    </section>
+
+    <!-- m44388 note with 1 para -->
+    <section id="noted-section-1">
+      <note id="fs-id2681692" class="career">
+        <label/>
+        <title>Career Connection</title>
+        <para id="fs-id1808500"><title>Forensic Scientist</title>Forensic science is the application of science to answer questions related to the law.</para>
+      </note>
+    </section>
+
+    <!-- m44388 note with 2 paras -->
+    <section id="noted-section-2">
+      <note id="fs-id2581806" class="evolution">
+        <label/>
+        <title>Evolution Connection</title>
+        <para id="fs-id2024686"><title>Carl Woese and the Phylogenetic Tree</title>In the past, biologists grouped living organisms into five kingdoms...</para>
+        <para id="fs-id2956594">Woese’s tree was constructed from comparative sequencing of the genes that are universally distributed, present in every organism, and conserved.</para>
+      </note>
+    </section>
+
+    <section id="pre-section">
+      <!-- m46109 // 13c63123-7ecf-4a25-877f-b1468f34a303 -->
+      <code id="coded" display="block">
+        <title>Formatting an Interrupt in Code Composer C</title></code>
+      <!-- no c:preformat/c:title records exist in connextions-->
+    </section>
+
+    <!-- m21405 // abef6f6b-bb16-49b2-a40a-fac28a96cfb2 -->
+    <quote id="quote-test">
+      <title>Sir Francis Bacon, 1623</title>
+      ...a man may express and signifie the intentions of his minde, at any distance... by... objects... capable of a twofold difference onely.
+    </quote>
+
+
+    <!-- m47370 // abc1d9ac-cf38-48a3-8fd0-6b8210949d9a -->
+    <equation id="equation-test">
+      <title>Discrete-Time Fourier Transform</title>
+      <m:math>
+        <m:apply>
+          <m:eq/>
+          <m:apply>
+            <m:ci type="fn" class="continuous">X</m:ci>
+            <m:ci>Ω</m:ci>
+          </m:apply>
+          <m:apply>
+            <m:sum/>
+            <m:bvar>
+              <m:ci>n</m:ci>
+            </m:bvar>
+            <m:lowlimit>
+              <m:apply>
+                <m:minus/>
+                <m:infinity/>
+              </m:apply>
+            </m:lowlimit>
+            <m:uplimit>
+              <m:infinity/>
+            </m:uplimit>
+            <m:apply>
+              <m:times/>
+              <m:apply>
+                <m:ci type="fn" class="discrete">f</m:ci>
+                <m:ci>n</m:ci>
+              </m:apply>
+              <m:apply>
+                <m:exp/>
+                <m:apply>
+                  <m:minus/>
+                  <m:apply>
+                    <m:times/>
+                    <m:ci>j</m:ci>
+                    <m:ci>Ω</m:ci>
+                    <m:ci>n</m:ci>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+            </m:apply>
+          </m:apply>
+        </m:apply>
+      </m:math>
+    </equation>
+
+    <!-- m46793 // cd6a0ee9-4ca0-4a1c-8498-0a26fa474fa1 -->
+    <figure id="figure-test">
+      <title>Intslación de GNU Octave 6.3.1</title>
+      <media id="id-mediaa" display="block" alt="Video">
+        <image src="example.png" mime-type="image/png"/>
+      </media>
+    </figure>
+      <!-- m46185 // 3a3321e4-29e5-4709-a9f3-f9c342fe0127 -->
+    <figure id="figure-subfigure-test">
+      <subfigure id="subfigure-test">
+        <title>Zero Correlation</title>
+        <media id="id1165447908510" alt="Scatterplot of points in a horizontal configuration.">
+          <image src="example.png" mime-type="image/png" print-width="2in"/>
+        </media>
+      </subfigure>
+      <subfigure id="subfigure-test-2">
+        <title>Intslación de GNU Octave 6.3.1</title>
+        <media id="id-mediab" display="block" alt="Video">
+          <image src="example.png" mime-type="image/png"/>
+        </media>
+      </subfigure>
+    </figure>
+
+    <!-- m47819 // d7397b20-8abb-40e4-b074-dc58e46b399c -->
+    <example id="example-test" type="listing">
+      <label>Listing</label>
+      <title>
+        <emphasis id="Listing_1" effect="bold"/>
+        Question 4.
+      </title>
+      <para id="idm45615968092288"> ... </para>
+    </example>
+
+    <!-- m42219 // 030347e9-f128-486f-a779-019ac474ff90 -->
+    <exercise id="exercise-test" print-placement="here" type="check-understanding">
+      <label/>
+      <title>Check Your Understanding</title>
+      <!-- m31849 // fea36ff3-dc5d-43ee-ab74-f40da2a94c1a -->
+      <problem id="problem-test" type="problem-type">
+        <title>Extra Credit Problem</title>
+        <para id="new1">
+          One extra credit point will be awarded to you and your partner if you can implement the dual-channel system without using the auxiliary registers
+          <code>AR0</code>
+          ,
+          <code>AR3</code>
+          , and
+          <code>AR5</code>
+          . Why is this more difficult? Renaming the registers using the
+          <code>.asg</code>
+          directive does not count!
+        </para>
+      </problem>
+      <!-- m46909 // cb418599-f69b-46c1-b0ef-60d9e36e677f -->
+      <solution id="solution-test" class="solutions" print-placement="here" type="solution-type">
+        <label/>
+        <title>Try It Solutions</title>
+        <para id="fs-idp54569968">
+          The
+          <emphasis>population</emphasis>
+          is all families with children attending Knoll Academy.
+        </para>
+      </solution>
+    </exercise>
+
+    <!-- No commentary/title found in the production cnx database. -->
+
+    <!-- No meaning/title found in the production cnx database. -->
+
+    <!-- m47353 // 7bc0c611-be01-4bcf-9e92-d3209d525828 -->
+    <rule id="rule-test" type="rule">
+      <title>Real Signals</title>
+      <statement id="statement-test">
+        <!-- m18908 // 3082636b-c837-4cf3-bae4-e3d9cbb19a00 -->
+        <title>Real Symmetry</title>
+        <para id="idm45615968078112"> ... </para>
+      </statement>
+      <proof id="proof-test">
+        <!-- m12849 // 5c38f888-5797-46ab-9d48-6b99d79281f1 -->
+        <title>Real Proof</title>
+        <para id="idm45615968076272"> ... </para>
+      </proof>
+    </rule>
+
+<para id="id1">XHTML does not render Windows ISO characters at all. See <link url="https://www.cs.tut.fi/~jkorpela/www/windows-chars.html">https://www.cs.tut.fi/~jkorpela/www/windows-chars.html</link> for details and the conversion to UTF-8</para>
+
+  <list id="list">
+  <item>&amp;#130; = &#130;</item>
+  <item>&amp;#131; = &#131;</item>
+  <item>&amp;#132; = &#132;</item>
+  <item>&amp;#133; = &#133;</item>
+  <item>&amp;#134; = &#134;</item>
+  <item>&amp;#135; = &#135;</item>
+  <item>&amp;#136; = &#136;</item>
+  <item>&amp;#137; = &#137;</item>
+  <item>&amp;#138; = &#138;</item>
+  <item>&amp;#139; = &#139;</item>
+  <item>&amp;#140; = &#140;</item>
+  <item>&amp;#145; = &#145;</item>
+  <item>&amp;#146; = &#146;</item>
+  <item>&amp;#147; = &#147;</item>
+  <item>&amp;#148; = &#148;</item>
+  <item>&amp;#149; = &#149;</item>
+  <item>&amp;#150; = &#150;</item>
+  <item>&amp;#151; = &#151;</item>
+  <item>&amp;#152; = &#152;</item>
+  <item>&amp;#153; = &#153;</item>
+  <item>&amp;#154; = &#154;</item>
+  <item>&amp;#155; = &#155;</item>
+  <item>&amp;#156; = &#156;</item>
+  <item>&amp;#159; = &#159;</item>
+  </list>
+
+
+
+
+
+
+
+
+
+
+
+
+  </content>
+
+    <glossary class="ost-reading-discard">
+
+        <definition id="import-auto-id1170614029097"><term>Ohm’s law</term> <meaning id="fs-id3177792">an empirical relation stating that the current <emphasis effect="italics">I</emphasis> is proportional to the potential difference <emphasis effect="italics">V</emphasis>, <emphasis effect="italics">∝ V</emphasis>; it is often written as <emphasis effect="italics">I = V/R</emphasis>, where <emphasis effect="italics">R</emphasis> is the resistance</meaning></definition>
+
+        <definition id="import-auto-id1170614028797"><term>resistance</term><meaning id="fs-id3032203"> the electric property that impedes current; for ohmic materials, it is the ratio of voltage to current, <emphasis effect="italics">R = V/I</emphasis></meaning></definition>
+
+        <definition id="import-auto-id1170614028811"><term>ohm</term> <meaning id="fs-id1917197">the unit of resistance, given by 1Ω = 1 V/A</meaning></definition>
+
+<definition id="fs-id1950602"><term>ohmic</term><meaning id="fs-id2065197"> a type of a material for which Ohm's law is valid</meaning></definition>
+
+            <definition id="import-auto-id1170614028884"><term>simple circuit</term> <meaning id="fs-id1254011">a circuit with a single voltage source and a single resistor</meaning></definition>
+    </glossary>
+
+</document>
