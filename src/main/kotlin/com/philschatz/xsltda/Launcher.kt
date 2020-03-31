@@ -59,7 +59,7 @@ class Launcher(
 
                 transformer.messageListener = object : MessageListener {
                     override fun message(content: XdmNode, terminate: Boolean, locator: SourceLocator) {
-                        doStuff(client, "MESSAGE", OutputEventArgumentsCategory.STDOUT, content.stringValue, locator)
+                        doStuff(client, null, OutputEventArgumentsCategory.STDOUT, "${content.stringValue}\n", locator)
                     }
                 }
 
@@ -73,14 +73,14 @@ class Launcher(
         return listener
     }
 
-    fun doStuff(client: IDebugProtocolClient, prefix: String, cat: String, msg: String?, loc: SourceLocator?) {
+    fun doStuff(client: IDebugProtocolClient, prefix: String?, cat: String, msg: String?, loc: SourceLocator?) {
         if (loc != null) {
             val path = Paths.get(URI(loc.systemId).normalize())
             val src = Source(path.fileName.toString(), path)
 
             client.output(OutputEventArguments().apply {
                 category = cat
-                output = "[$prefix] $msg"
+                output = if (prefix != null) "[$prefix] $msg" else "$msg"
                 // variablesReference = 1L
                 source = converter.toDAPSource(src)
                 line = converter.lineConverter.toExternalLine(loc.lineNumber.toLong())

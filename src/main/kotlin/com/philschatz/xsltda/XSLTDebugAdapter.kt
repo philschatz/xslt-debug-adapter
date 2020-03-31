@@ -286,10 +286,10 @@ class XSLTDebugAdapter : IDebugProtocolServer {
     }
 
     override fun disconnect(args: DisconnectArguments): CompletableFuture<Void> = CompletableFuture()
+    override fun setExceptionBreakpoints(args: SetExceptionBreakpointsArguments): CompletableFuture<Void> = CompletableFuture()
 
     override fun runInTerminal(args: RunInTerminalRequestArguments): CompletableFuture<RunInTerminalResponse> = notImplementedDAPMethod("runInTerminal")
     override fun restart(args: RestartArguments): CompletableFuture<Void> = notImplementedDAPMethod("restart")
-    override fun setExceptionBreakpoints(args: SetExceptionBreakpointsArguments): CompletableFuture<Void> = notImplementedDAPMethod("setExceptionBreakpoints")
     override fun setFunctionBreakpoints(args: SetFunctionBreakpointsArguments): CompletableFuture<SetFunctionBreakpointsResponse> = notImplementedDAPMethod("setFunctionBreakpoints")
     override fun stepBack(args: StepBackArguments): CompletableFuture<Void> = notImplementedDAPMethod("stepBack")
     override fun reverseContinue(args: ReverseContinueArguments): CompletableFuture<Void> = notImplementedDAPMethod("reverseContinue")

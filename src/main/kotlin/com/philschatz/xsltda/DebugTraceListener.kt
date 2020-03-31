@@ -273,7 +273,11 @@ fun getValue(v: GroundedValue<*>?): String {
     if (v is NodeInfo) {
         // Element Attributes do not have source information so use the parent
         when (v.nodeKind.toShort()) {
-            Type.DOCUMENT,
+            Type.DOCUMENT -> if (v.columnNumber < 0) {
+                return String.format("(created root)")
+            } else {
+                return String.format("%s @%d:%d", v.toShortString(), v.lineNumber, v.columnNumber)
+            }
             Type.ELEMENT,
             Type.PROCESSING_INSTRUCTION,
             Type.COMMENT,
@@ -309,14 +313,14 @@ fun getType(v: GroundedValue<*>?): String {
         "null"
     } else if (v is NodeInfo) {
         when (v.nodeKind.toShort()) {
-            Type.ELEMENT -> "ELEMENT"
-            Type.ATTRIBUTE -> "ATTRIBUTE"
-            Type.TEXT -> "TEXT"
-            Type.WHITESPACE_TEXT -> "WHITESPACE_TEXT"
-            Type.PROCESSING_INSTRUCTION -> "PROCESSING_INSTRUCTION"
-            Type.COMMENT -> "COMMENT"
-            Type.DOCUMENT -> "DOCUMENT"
-            Type.NAMESPACE -> "NAMESPACE"
+            Type.ELEMENT -> "ELEMENT NODE"
+            Type.ATTRIBUTE -> "ATTRIBUTE NODE"
+            Type.TEXT -> "TEXT NODE"
+            Type.WHITESPACE_TEXT -> "WHITESPACE_TEXT NODE"
+            Type.PROCESSING_INSTRUCTION -> "PROCESSING_INSTRUCTION NODE"
+            Type.COMMENT -> "COMMENT NODE"
+            Type.DOCUMENT -> "DOCUMENT NODE"
+            Type.NAMESPACE -> "NAMESPACE NODE"
             else -> { throw Error("BUG: Unsupported node type. Add it!") }
         }
     } else if (v is StringValue) { "String"
