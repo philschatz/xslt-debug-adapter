@@ -66,7 +66,7 @@ class Launcher(
                     }
                 }
 
-                val qparams: MutableMap<QName, XdmValue> = params.entries.associateTo(mutableMapOf<QName, XdmValue>()) { QName(it.key as String) to XdmAtomicValue.makeAtomicValue(it.value) }
+                val qparams: MutableMap<QName, XdmValue> = params.entries.associateTo(mutableMapOf<QName, XdmValue>()) { QName(it.key) to XdmAtomicValue.makeAtomicValue(it.value) }
                 transformer.setStylesheetParameters(qparams)
 
                 LOG.trace("Start transform")

@@ -8,6 +8,7 @@ import java.nio.file.Paths
 import java.util.Stack
 import net.sf.saxon.Controller
 import net.sf.saxon.expr.XPathContext
+import net.sf.saxon.expr.parser.Location
 import net.sf.saxon.lib.Logger
 import net.sf.saxon.lib.TraceListener
 import net.sf.saxon.om.AxisInfo
@@ -115,6 +116,7 @@ class DebugTraceListener(
         stackFrames.push(Stackframe(instr, variables))
 
         // Check if a breakpoint for this location has been set
+        val item = currentItem
         if (hasBreakpoint(Paths.get(URI(instr.systemId).normalize()), instr.lineNumber)) {
             eventBus.breakpointListeners.fire(BreakpointStopEvent(1))
             pause()
@@ -123,6 +125,17 @@ class DebugTraceListener(
                         (nextStop == Step.OUT && stackFrames.size <= nextStopStack)) {
             eventBus.stepListeners.fire(StepStopEvent(1))
             pause()
+        } else if (item != null) {
+            // Pause on XML breakpoints every time the node is processed
+            val gv = item.iterate().materialize()
+            if (gv is Location) {
+                if (gv is NodeInfo && UNBREAKABLE_NODES.contains(gv.nodeKind.toShort())) {
+                    // Do not break on text nodes or comment nodes or attribute nodes
+                } else if (hasBreakpoint(Paths.get(URI(gv.systemId).normalize()), gv.lineNumber)) {
+                    eventBus.breakpointListeners.fire(BreakpointStopEvent(1))
+                    pause()
+                }
+            }
         }
         sleepIfPaused()
     }
@@ -212,6 +225,9 @@ class DebugTraceListener(
         return breakpoints.contains(key)
     }
 }
+
+// Breakpoints on these nodes do not work
+val UNBREAKABLE_NODES: List<Short> = listOf(Type.COMMENT, Type.TEXT, Type.WHITESPACE_TEXT, Type.ATTRIBUTE)
 
 fun toConstructName(instr: InstructionInfo): String {
     val type = instr.constructType
