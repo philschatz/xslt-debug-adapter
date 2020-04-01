@@ -100,6 +100,7 @@ class DebugTraceListener(
 
     override fun enter(instr: InstructionInfo, context: XPathContext) {
         var variables = mutableMapOf<String, GroundedValue<*>?>()
+        var tunnelParams = mutableMapOf<String, GroundedValue<*>?>()
         val i = currentItem
         if (i != null) {
             variables["(this)"] = i
@@ -113,7 +114,15 @@ class DebugTraceListener(
             p++
         }
 
-        stackFrames.push(Stackframe(instr, variables))
+        if (context.tunnelParameters != null) {
+            for (parameterName in context.tunnelParameters.parameterNames) {
+                val index = context.tunnelParameters.getIndex(parameterName)
+                val value = context.tunnelParameters.getValue(index)
+                tunnelParams.set(parameterName.displayName, value.iterate().materialize())
+            }
+        }
+
+        stackFrames.push(Stackframe(instr, variables, tunnelParams))
 
         // Check if a breakpoint for this location has been set
         val item = currentItem
@@ -187,7 +196,7 @@ class DebugTraceListener(
             object : StackFrame {
                 override val name = toConstructName(it.instruction)
                 override val position = toPosition(it.instruction)
-                override val scopes = listOf(toScopeVariableTreeNode(it.variables))
+                override val scopes = listOf(toScopeVariableTreeNode("Local", it.variables), toScopeVariableTreeNode("Tunnel Params", it.tunnelParams))
             }
         }
     }
@@ -258,9 +267,9 @@ fun toPosition(instr: InstructionInfo): Position {
     return Position(source, instr.lineNumber.toLong(), instr.columnNumber.toLong())
 }
 
-fun toScopeVariableTreeNode(variables: Map<String, GroundedValue<*>?>): VariableTreeNode {
+fun toScopeVariableTreeNode(scopeName: String, variables: Map<String, GroundedValue<*>?>): VariableTreeNode {
     return object : VariableTreeNode {
-        override val name = "Local"
+        override val name = scopeName
         override val childs: List<VariableTreeNode>
             get() = variables.entries.map { toVariableTreeNode(it) }
     }
