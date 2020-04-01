@@ -10,8 +10,11 @@ import javax.xml.transform.stream.StreamSource
 import net.sf.saxon.lib.Feature
 import net.sf.saxon.s9api.MessageListener
 import net.sf.saxon.s9api.Processor
+import net.sf.saxon.s9api.QName
 import net.sf.saxon.s9api.SaxonApiException
+import net.sf.saxon.s9api.XdmAtomicValue
 import net.sf.saxon.s9api.XdmNode
+import net.sf.saxon.s9api.XdmValue
 import org.eclipse.lsp4j.debug.OutputEventArguments
 import org.eclipse.lsp4j.debug.OutputEventArgumentsCategory
 import org.eclipse.lsp4j.debug.services.IDebugProtocolClient
@@ -27,7 +30,7 @@ class Launcher(
     val converter: DAPConverter
 ) {
 
-    fun launch(client: IDebugProtocolClient, xsltPath: String, sourcePath: String, destinationPath: String): Debuggee {
+    fun launch(client: IDebugProtocolClient, xsltPath: String, sourcePath: String, destinationPath: String, params: Map<String, Any>): Debuggee {
         val listener = DebugTraceListener(context, converter)
 
         AsyncExecutor().compute {
@@ -62,6 +65,9 @@ class Launcher(
                         doStuff(client, null, OutputEventArgumentsCategory.STDOUT, "${content.stringValue}\n", locator)
                     }
                 }
+
+                val qparams: MutableMap<QName, XdmValue> = params.entries.associateTo(mutableMapOf<QName, XdmValue>()) { QName(it.key as String) to XdmAtomicValue.makeAtomicValue(it.value) }
+                transformer.setStylesheetParameters(qparams)
 
                 LOG.trace("Start transform")
                 transformer.transform(source, destination)

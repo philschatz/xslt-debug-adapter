@@ -125,8 +125,10 @@ class XSLTDebugAdapter : IDebugProtocolServer {
         val sourcePath = args["sourcePath"] as? String ?: throw missingRequestArgument("launch", "sourcePath")
         val destinationPath = args["destinationPath"] as? String
                 ?: throw missingRequestArgument("launch", "destinationPath")
+        val params = args["parameters"] as? Map<String, Any>
+            ?: mutableMapOf()
 
-        debuggee = launcher.launch(client!!, xslPath, sourcePath, destinationPath)
+        debuggee = launcher.launch(client!!, xslPath, sourcePath, destinationPath, params)
                 .also(::setupDebuggeeListeners)
 
         LOG.trace("Instantiated debuggee")
