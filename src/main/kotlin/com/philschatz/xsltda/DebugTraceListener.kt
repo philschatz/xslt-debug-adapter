@@ -122,7 +122,14 @@ class DebugTraceListener(
             }
         }
 
-        stackFrames.push(Stackframe(instr, variables, tunnelParams))
+        if (isFunctionish(instr)) {
+            stackFrames.push(Stackframe(instr, instr, variables, tunnelParams))
+        } else {
+            val thisSf = stackFrames.peek()
+            thisSf.currentInstruction = instr
+            thisSf.variables = variables
+            thisSf.tunnelParams = tunnelParams
+        }
 
         // Check if a breakpoint for this location has been set
         val item = currentItem
@@ -150,7 +157,9 @@ class DebugTraceListener(
     }
 
     override fun leave(instr: InstructionInfo) {
-        stackFrames.pop()
+        if (isFunctionish(instr)) {
+            stackFrames.pop()
+        }
     }
 
     override fun startCurrentItem(item: Item<*>) {
@@ -194,14 +203,14 @@ class DebugTraceListener(
     override fun stackTrace() = object : StackTrace {
         public override val frames = stackFrames.reversed().map {
             object : StackFrame {
-                override val name = toConstructName(it.instruction)
-                override val position = toPosition(it.instruction)
+                override val name = toDisplayName(it.stackInstruction)
+                override val position = toPosition(it.currentInstruction)
                 override val scopes = listOf(toScopeVariableTreeNode("Local", it.variables), toScopeVariableTreeNode("Tunnel Params", it.tunnelParams))
             }
         }
     }
 
-    override fun stepInto() { nextStop = Step.INTO; nextStopStack = stackFrames.size + 1; resume_() }
+    override fun stepInto() { nextStop = Step.INTO; nextStopStack = stackFrames.size; resume_() }
     override fun stepOut() { nextStop = Step.OUT; nextStopStack = stackFrames.size - 1; resume_() }
     override fun stepOver() { nextStop = Step.OVER; nextStopStack = stackFrames.size; resume_() }
 
@@ -238,6 +247,14 @@ class DebugTraceListener(
 // Breakpoints on these nodes do not work
 val UNBREAKABLE_NODES: List<Short> = listOf(Type.COMMENT, Type.TEXT, Type.WHITESPACE_TEXT, Type.ATTRIBUTE)
 
+fun isFunctionish(instr: InstructionInfo): Boolean {
+    return when (instr.constructType) {
+        StandardNames.XSL_TEMPLATE -> true
+        StandardNames.XSL_FUNCTION -> true
+        else -> false
+    }
+}
+
 fun toConstructName(instr: InstructionInfo): String {
     val type = instr.constructType
     return if (type < 1024) {
@@ -258,6 +275,16 @@ fun toConstructName(instr: InstructionInfo): String {
             else -> "Unknown"
         }
     }
+}
+
+fun toDisplayName(instr: InstructionInfo): String {
+    if (isFunctionish(instr)) {
+        val match = instr.getProperty("match")
+        if (match != null) {
+            return "match=\"$match\""
+        }
+    }
+    return toConstructName(instr)
 }
 
 fun toPosition(instr: InstructionInfo): Position {
