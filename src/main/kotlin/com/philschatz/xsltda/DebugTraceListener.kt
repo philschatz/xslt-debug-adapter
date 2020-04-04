@@ -251,6 +251,14 @@ fun isFunctionish(instr: InstructionInfo): Boolean {
     return when (instr.constructType) {
         StandardNames.XSL_TEMPLATE -> true
         StandardNames.XSL_FUNCTION -> true
+        StandardNames.XSL_FOR_EACH -> true
+        StandardNames.XSL_FOR_EACH_GROUP -> true
+        StandardNames.XSL_ANALYZE_STRING -> true
+        StandardNames.XSL_SORT -> true
+        StandardNames.XSL_KEY -> true
+        StandardNames.XSL_ITERATE -> true
+        StandardNames.XSL_SOURCE_DOCUMENT -> true
+        StandardNames.XSL_MERGE -> true
         else -> false
     }
 }
@@ -279,6 +287,9 @@ fun toConstructName(instr: InstructionInfo): String {
 
 fun toDisplayName(instr: InstructionInfo): String {
     if (isFunctionish(instr)) {
+        // The following properties do not seem to be available:
+        // - xsl:template name="..."
+        // - xsl:for-each select="..."
         val match = instr.getProperty("match")
         if (match != null) {
             return "match=\"$match\""
